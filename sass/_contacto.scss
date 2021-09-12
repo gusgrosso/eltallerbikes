@@ -1,0 +1,92 @@
+/*Contacto*/
+
+main {
+    section {
+        &.seccionFormulario {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            form {
+                width: 600px;
+                color: #ce984e;
+                display: flex;
+                flex-direction: column;
+                .contenedorFormulario {
+                    padding: 30px;
+                    border: #ce984e 3px solid;
+                    margin-bottom: 80px;
+                    background-color: black;
+                    display: flex;
+                    flex-direction: column;
+                    .filaNombreTelefonoMail {
+                        margin-bottom: 10px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        .textoFilaForm {
+                            margin-right: 8px;
+                        }
+                    }
+                    .filaRedSocial {
+                        margin-bottom: 10px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-around;
+                        .selectRedSocial {
+                            margin-right: 10px;
+                        }
+                    }
+                    .mensajeTextAreaBox {
+                        display: flex;
+                        flex-direction: column;
+                        .textoMensaje {
+                            margin-bottom: 10px;
+                        }
+                    }
+                    .tipoContacto {
+                        margin-top: 10px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-around;
+                    }
+                    .consultaNewsletter {
+                        margin-top: 10px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-around;
+                    }
+                    .botonesForm {
+                        margin-top: 25px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-evenly;
+                        .botonLimpiaEnvia {
+                            color: white;
+                            font-weight: bold;
+                            font-size: 16px;
+                            padding: 5px 10px;
+                            background-color: black;
+                            border-radius: 5px;
+                            border: #ce984e solid 1px;
+                        }
+                        .botonLimpiaEnvia:hover {
+                            background-color: #ce984e;
+                        }
+                    }
+                }
+            }            
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

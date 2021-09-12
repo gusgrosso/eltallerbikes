@@ -1,0 +1,69 @@
+/* Header - Barra Navegación */
+header {
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    left: 0;
+    border-bottom: #ce984e solid 3px;
+    z-index: 1;
+}
+
+.header__contenedorLogo {
+    margin: 2px;
+    margin-left: 90px;    
+}
+
+
+header a img {
+    width: 110px;
+}
+
+nav.header__nav__menuNavegacion {
+    background-color:black;
+    margin: 5px 20px 0 0;
+}
+
+nav.header__nav__menuNavegacion a.header__nav__a--botonPrincipal {     
+    color:white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px 10px;
+    background-color: black;
+    border-radius: 5px;
+    border: #ce984e solid 1px;
+    text-decoration: none;
+}
+
+nav.header__nav__menuNavegacion a.header__nav__a--botonPrincipal:hover {
+    background-color:#ce984e;
+    border-radius: 5px;
+    border: #ce984e solid 1px;
+    color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+nav.header__nav__menuNavegacion ul {
+    padding-left: 0;
+}
+nav.header__nav__menuNavegacion ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 6px;
+}
+
+.header__nav__subMenuServicios {
+    display: none;
+    position: absolute;
+    right: 0;
+    padding-top: 10px;
+    margin-right: 20px; 
+}
+
+li.openSubmenu:hover ul.header__nav__subMenuServicios {
+    display: block;
+}

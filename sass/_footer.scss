@@ -1,0 +1,72 @@
+/* footer */
+footer {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    font-size: 12px;
+    display: flex;
+    flex-wrap: nowrap;
+    .footer__box__mapaSitio {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        align-items: center;
+        margin-top: 5px;
+        text-align: center;
+    }
+    .footer__h5 {
+        font-size: 14px;
+        color: #ce984e;
+        margin-bottom: 10px;
+    }
+    .footer__ul {
+        list-style: none;
+        margin: 0;
+        padding-left: 0;
+    }
+    .footer__ul__a {
+        color:white;
+        margin-left: 6px;
+        opacity: 80%;
+        text-decoration: none;
+    }
+    .footer__ul__a:hover {
+        color: #ce984e;
+    }    
+    .footer__ul__li__i {
+        color:white;
+        opacity: 80%;
+    }
+    .footer__box__casaCentral__li {
+        color:white;
+        opacity: 80%;
+        margin-bottom: 2px;
+    }
+    
+    .footer__box__casaCentral {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        align-items: center;
+        margin-top: 5px;
+        text-align: center;
+    }
+    .footer__box__nuestrasRedes {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        align-items: center;
+        margin-top: 5px;
+        text-align: center;
+    }
+}
+    
+    
+ 
+
+
+
+ 
+

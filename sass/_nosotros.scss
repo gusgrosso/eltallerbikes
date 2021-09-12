@@ -1,0 +1,84 @@
+/*Nosotros*/
+main {
+    section {
+        &.seccionNosotros {
+            display: flex;
+            flex-direction: column;
+            align-content: center; 
+        }
+        .grillaNosotros {
+            width: 75%;
+            display: grid;
+            grid-template-columns: (1fr, 1fr, 1fr);
+            grid-template-rows: (1fr, 1fr);
+            gap: 5px;
+            margin-bottom: 40px;
+            padding-bottom: 40px;
+            justify-content: center;
+            align-self: center;
+            .grillanosotrosHijo1 {
+                grid-column: 1/4;
+                .seccionNosotrosHijo {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .parrafoNosotros {
+                        text-align: justify;
+                        margin-bottom: 30px;
+                    }
+                    .parrafoNosotros2 {
+                        width: 70%;
+                        margin-bottom: 30px;
+                        text-align: justify;
+                    }
+                    .videoNosotros {
+                        width: 70%;
+                        border: #ce984e solid 3px;
+                        border-radius: 5px;
+                        margin: 10px 0 60px 0;
+                    }
+                    .imagenNosotros {
+                        border: #ce984e solid 3px;
+                        border-radius: 5px;
+                        margin: 10px 0 60px 0;
+                    }
+                }
+            }
+            .grillanosotrosHijo2 {
+                width: 300px;
+                padding: 10px;
+                align-items: center;
+                justify-self: center;
+                align-self: center;
+                text-align: justify;
+                .fotoGrillaNosotros {
+                    width: 100%;
+                    border: #ce984e 3px solid;
+                    border-radius: 5px;
+                    margin-bottom: 20px;
+                }
+                .fotoGrillaNosotros:hover {
+                    transform: scale(1.05,1.05);
+                }
+            }
+        }
+        hr {
+            border: #ce984e 1px solid;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+.containerNosotrosBoot {
+    &.parrafoNosotrosboot {
+        text-align: justify;
+        margin-bottom: 30px;
+    }
+}
+
+
+
+
+
+
+

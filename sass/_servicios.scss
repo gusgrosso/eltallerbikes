@@ -1,0 +1,119 @@
+/*Servicios*/
+
+// declaración de variables para la sección Servicios //
+
+$altBoxServicios: 900px;
+
+
+section {
+    &.cuerpoServicios {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        h3 {
+            color: #ce984e;
+        }
+        .descripcionServicio {
+            width: 70%;
+            text-align: justify;
+            margin-bottom: 30px;
+            .parrafoServicio {
+                text-align: justify;
+                margin-bottom: 30px;
+            }
+        }
+        .margenTopMenu {
+            height: 50px;
+            visibility: hidden;
+        }
+        .servicioReparacion {
+            background-image: url(../img/reparacion.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: $altBoxServicios;
+            min-height: $altBoxServicios/2;
+            margin-top: 60px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border: #ce984e solid 3px;
+            .servicioFondoOpacidad {
+                background-color: black;
+                opacity: 70%;
+                padding: 10px;
+                text-align: center;
+                .parrafoServiciosJustificado {
+                    text-align: justify;
+                    padding: 10px;
+                }
+            }
+        }
+        .servicioLimpieza {
+            background-image: url(../img/limpieza.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: $altBoxServicios;
+            min-height: $altBoxServicios/2;
+            margin-top: 60px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border: #ce984e solid 3px;
+            .servicioFondoOpacidad {
+                background-color: black;
+                opacity: 70%;
+                padding: 10px;
+                text-align: center;
+                .parrafoServiciosJustificado {
+                    text-align: justify;
+                    padding: 10px;
+                }
+            }
+        }
+        .servicioPuestaPunto {
+            background-image: url(../img/puestaapunto.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: $altBoxServicios;
+            min-height: $altBoxServicios/2;
+            margin-top: 60px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border: #ce984e solid 3px;
+            .servicioFondoOpacidad {
+                background-color: black;
+                opacity: 70%;
+                padding: 10px;
+                text-align: center;
+                .parrafoServiciosJustificado {
+                    text-align: justify;
+                    padding: 10px;
+                }
+            }
+        }
+        .servicioVenta {
+            background-image: url(../img/venta.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: $altBoxServicios;
+            min-height: $altBoxServicios/2;
+            margin-top: 60px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border: #ce984e solid 3px;;
+            .servicioFondoOpacidad {
+                background-color: black;
+                opacity: 70%;
+                padding: 10px;
+                text-align: center;
+                .parrafoServiciosJustificado {
+                    text-align: justify;
+                    padding: 10px;
+                }
+            }
+        }
+    }
+}

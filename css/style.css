@@ -1,0 +1,1049 @@
+@charset "UTF-8";
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-image: radial-gradient(black, #332e26);
+}
+
+/* Header - Barra Navegación */
+header {
+  background-color: black;
+  color: white;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  border-bottom: #ce984e solid 3px;
+  z-index: 1;
+}
+
+.header__contenedorLogo {
+  margin: 2px;
+  margin-left: 90px;
+}
+
+header a img {
+  width: 110px;
+}
+
+nav.header__nav__menuNavegacion {
+  background-color: black;
+  margin: 5px 20px 0 0;
+}
+
+nav.header__nav__menuNavegacion a.header__nav__a--botonPrincipal {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 5px 10px;
+  background-color: black;
+  border-radius: 5px;
+  border: #ce984e solid 1px;
+  text-decoration: none;
+}
+
+nav.header__nav__menuNavegacion a.header__nav__a--botonPrincipal:hover {
+  background-color: #ce984e;
+  border-radius: 5px;
+  border: #ce984e solid 1px;
+  color: white;
+  padding: 5px 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+nav.header__nav__menuNavegacion ul {
+  padding-left: 0;
+}
+
+nav.header__nav__menuNavegacion ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 6px;
+}
+
+.header__nav__subMenuServicios {
+  display: none;
+  position: absolute;
+  right: 0;
+  padding-top: 10px;
+  margin-right: 20px;
+}
+
+li.openSubmenu:hover ul.header__nav__subMenuServicios {
+  display: block;
+}
+
+/* Main */
+main {
+  width: 100%;
+}
+
+/* General*/
+h1 {
+  color: #ce984e;
+  font-style: italic;
+  text-transform: uppercase;
+  word-spacing: 5px;
+  text-align: center;
+  padding: 20px;
+}
+
+h2 {
+  color: #ce984e;
+  text-align: center;
+  padding: 20px;
+}
+
+p {
+  color: #ce984e;
+}
+
+/* Inicio */
+section.seccionInicio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section .seccionInicioHijo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section .seccionInicioHijo .parrafoInicio {
+  width: 70%;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+section .seccionInicioHijo .imagenInicio {
+  width: 70%;
+  border: #ce984e solid 3px;
+  border-radius: 5px;
+  margin: 10px 0 60px 0;
+}
+
+/*Nosotros*/
+main section.seccionNosotros {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+main section .grillaNosotros {
+  width: 75%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr, 1fr, 1fr;
+      grid-template-columns: 1fr, 1fr, 1fr;
+  -ms-grid-rows: 1fr, 1fr;
+      grid-template-rows: 1fr, 1fr;
+  gap: 5px;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-grid-row-align: center;
+      align-self: center;
+}
+
+main section .grillaNosotros .grillanosotrosHijo1 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+}
+
+main section .grillaNosotros .grillanosotrosHijo1 .seccionNosotrosHijo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main section .grillaNosotros .grillanosotrosHijo1 .seccionNosotrosHijo .parrafoNosotros {
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+main section .grillaNosotros .grillanosotrosHijo1 .seccionNosotrosHijo .parrafoNosotros2 {
+  width: 70%;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+main section .grillaNosotros .grillanosotrosHijo1 .seccionNosotrosHijo .videoNosotros {
+  width: 70%;
+  border: #ce984e solid 3px;
+  border-radius: 5px;
+  margin: 10px 0 60px 0;
+}
+
+main section .grillaNosotros .grillanosotrosHijo1 .seccionNosotrosHijo .imagenNosotros {
+  border: #ce984e solid 3px;
+  border-radius: 5px;
+  margin: 10px 0 60px 0;
+}
+
+main section .grillaNosotros .grillanosotrosHijo2 {
+  width: 300px;
+  padding: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-align: justify;
+}
+
+main section .grillaNosotros .grillanosotrosHijo2 .fotoGrillaNosotros {
+  width: 100%;
+  border: #ce984e 3px solid;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+main section .grillaNosotros .grillanosotrosHijo2 .fotoGrillaNosotros:hover {
+  -webkit-transform: scale(1.05, 1.05);
+          transform: scale(1.05, 1.05);
+}
+
+main section hr {
+  border: #ce984e 1px solid;
+  margin-bottom: 40px;
+}
+
+.containerNosotrosBoot.parrafoNosotrosboot {
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+/*Servicios*/
+section.cuerpoServicios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.cuerpoServicios h3 {
+  color: #ce984e;
+}
+
+section.cuerpoServicios .descripcionServicio {
+  width: 70%;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+section.cuerpoServicios .descripcionServicio .parrafoServicio {
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+section.cuerpoServicios .margenTopMenu {
+  height: 50px;
+  visibility: hidden;
+}
+
+section.cuerpoServicios .servicioReparacion {
+  background-image: url(../img/reparacion.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 900px;
+  min-height: 450px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: #ce984e solid 3px;
+}
+
+section.cuerpoServicios .servicioReparacion .servicioFondoOpacidad {
+  background-color: black;
+  opacity: 70%;
+  padding: 10px;
+  text-align: center;
+}
+
+section.cuerpoServicios .servicioReparacion .servicioFondoOpacidad .parrafoServiciosJustificado {
+  text-align: justify;
+  padding: 10px;
+}
+
+section.cuerpoServicios .servicioLimpieza {
+  background-image: url(../img/limpieza.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 900px;
+  min-height: 450px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: #ce984e solid 3px;
+}
+
+section.cuerpoServicios .servicioLimpieza .servicioFondoOpacidad {
+  background-color: black;
+  opacity: 70%;
+  padding: 10px;
+  text-align: center;
+}
+
+section.cuerpoServicios .servicioLimpieza .servicioFondoOpacidad .parrafoServiciosJustificado {
+  text-align: justify;
+  padding: 10px;
+}
+
+section.cuerpoServicios .servicioPuestaPunto {
+  background-image: url(../img/puestaapunto.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 900px;
+  min-height: 450px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: #ce984e solid 3px;
+}
+
+section.cuerpoServicios .servicioPuestaPunto .servicioFondoOpacidad {
+  background-color: black;
+  opacity: 70%;
+  padding: 10px;
+  text-align: center;
+}
+
+section.cuerpoServicios .servicioPuestaPunto .servicioFondoOpacidad .parrafoServiciosJustificado {
+  text-align: justify;
+  padding: 10px;
+}
+
+section.cuerpoServicios .servicioVenta {
+  background-image: url(../img/venta.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 900px;
+  min-height: 450px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: #ce984e solid 3px;
+}
+
+section.cuerpoServicios .servicioVenta .servicioFondoOpacidad {
+  background-color: black;
+  opacity: 70%;
+  padding: 10px;
+  text-align: center;
+}
+
+section.cuerpoServicios .servicioVenta .servicioFondoOpacidad .parrafoServiciosJustificado {
+  text-align: justify;
+  padding: 10px;
+}
+
+/*Productos*/
+.colorBoton {
+  background-color: black !important;
+  border: #ce984e !important;
+}
+
+.colorBoton:hover {
+  background-color: #ce984e !important;
+  border: #ce984e !important;
+}
+
+/*Sucursales*/
+main section {
+  margin-bottom: 60px;
+}
+
+main section.seccionSucursales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main section.seccionSucursales .parrafoSucursales {
+  text-align: justify;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+}
+
+main section.seccionSucursales .contenedorMapas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main section.seccionSucursales .contenedorMapas .datosSucursales {
+  color: #ce984e;
+  list-style: none;
+  padding: 10px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+}
+
+main section.seccionSucursales .contenedorMapas .datosSucursales .remarcado {
+  color: white;
+  margin-right: 5px;
+}
+
+main section.seccionSucursales .contenedorMapas a {
+  color: gray;
+}
+
+main section.seccionSucursales .contenedorMapas a:hover {
+  color: #ce984e;
+}
+
+main section.seccionSucursales .contenedorMapas .mapaSucursales {
+  width: 900px;
+  height: 450px;
+  border: 3px solid #ce984e;
+  border-radius: 5px;
+  opacity: 0.8;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+  -webkit-transition: all .8s;
+  transition: all .8s;
+}
+
+main section.seccionSucursales .contenedorMapas .mapaSucursales:hover {
+  opacity: 1;
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+
+main section.seccionSucursales .margenTopMenuProductos {
+  height: 100px;
+  visibility: hidden;
+}
+
+/*Contacto*/
+main section.seccionFormulario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main section.seccionFormulario form {
+  width: 600px;
+  color: #ce984e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main section.seccionFormulario form .contenedorFormulario {
+  padding: 30px;
+  border: #ce984e 3px solid;
+  margin-bottom: 80px;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main section.seccionFormulario form .contenedorFormulario .filaNombreTelefonoMail {
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main section.seccionFormulario form .contenedorFormulario .filaNombreTelefonoMail .textoFilaForm {
+  margin-right: 8px;
+}
+
+main section.seccionFormulario form .contenedorFormulario .filaRedSocial {
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+main section.seccionFormulario form .contenedorFormulario .filaRedSocial .selectRedSocial {
+  margin-right: 10px;
+}
+
+main section.seccionFormulario form .contenedorFormulario .mensajeTextAreaBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main section.seccionFormulario form .contenedorFormulario .mensajeTextAreaBox .textoMensaje {
+  margin-bottom: 10px;
+}
+
+main section.seccionFormulario form .contenedorFormulario .tipoContacto {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+main section.seccionFormulario form .contenedorFormulario .consultaNewsletter {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+main section.seccionFormulario form .contenedorFormulario .botonesForm {
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+main section.seccionFormulario form .contenedorFormulario .botonesForm .botonLimpiaEnvia {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 5px 10px;
+  background-color: black;
+  border-radius: 5px;
+  border: #ce984e solid 1px;
+}
+
+main section.seccionFormulario form .contenedorFormulario .botonesForm .botonLimpiaEnvia:hover {
+  background-color: #ce984e;
+}
+
+/* footer */
+footer {
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  color: white;
+  background-color: black;
+  font-size: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+footer .footer__box__mapaSitio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 5px;
+  text-align: center;
+}
+
+footer .footer__h5 {
+  font-size: 14px;
+  color: #ce984e;
+  margin-bottom: 10px;
+}
+
+footer .footer__ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+footer .footer__ul__a {
+  color: white;
+  margin-left: 6px;
+  opacity: 80%;
+  text-decoration: none;
+}
+
+footer .footer__ul__a:hover {
+  color: #ce984e;
+}
+
+footer .footer__ul__li__i {
+  color: white;
+  opacity: 80%;
+}
+
+footer .footer__box__casaCentral__li {
+  color: white;
+  opacity: 80%;
+  margin-bottom: 2px;
+}
+
+footer .footer__box__casaCentral {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 5px;
+  text-align: center;
+}
+
+footer .footer__box__nuestrasRedes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 5px;
+  text-align: center;
+}
+
+/* Error 404 */
+section.seccionError {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section .seccionErrorHijo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section .seccionErrorHijo .parrafoError {
+  width: 70%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+section .seccionErrorHijo .imagenError {
+  width: 50vw;
+  height: auto;
+  border: #ce984e solid 3px;
+  border-radius: 5px;
+  margin: 10px 0 60px 0;
+}
+
+section .listaErrorBox {
+  margin: auto;
+  margin-top: 20px;
+  width: 60vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section .listaErrorBox ul {
+  list-style: none;
+  color: #ce984e;
+}
+
+section .listaErrorBox ul li {
+  padding: 10px 20px 0 20px;
+  margin-bottom: 20px;
+}
+
+section .listaErrorBox ul li a {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 5px 10px;
+  margin-right: 20px;
+  background-color: black;
+  border-radius: 5px;
+  border: #ce984e solid 1px;
+  text-decoration: none;
+}
+
+section .listaErrorBox ul li a:hover {
+  background-color: #ce984e;
+  border-radius: 5px;
+  border: #ce984e solid 1px;
+  color: white;
+  padding: 5px 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* Css para Mobile */
+@media screen and (max-width: 426px) {
+  /* Header y menú de navegación */
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    position: relative;
+  }
+  header a img {
+    width: 200px;
+  }
+  header .contenedorLogo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  header nav {
+    margin: 0;
+    margin-bottom: 15px;
+  }
+  header nav ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  header nav ul li.openSubmenu .subMenuServicios {
+    bottom: 0;
+    right: 0;
+  }
+  header nav ul li a {
+    width: 80%;
+    text-align: center;
+  }
+  /* main */
+  /* Nosotros */
+  main {
+    width: 100%;
+  }
+  main section.seccionNosotros {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main section.seccionNosotros .grillaNosotros {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main section.seccionNosotros .grillaNosotros .seccionNosotrosHijo img {
+    width: 100%;
+    height: auto;
+  }
+  main section.seccionNosotros .grillaNosotros .seccionNosotrosHijo video {
+    width: 100%;
+    height: auto;
+  }
+  main section.seccionNosotros .grillaNosotros .seccionNosotrosHijo {
+    width: 100%;
+    padding: 20px;
+  }
+  main section.seccionNosotros .grillaNosotros .seccionNosotrosHijo .parrafoNosotros2 {
+    text-align: justify;
+    width: 80%;
+  }
+  /* Servicios */
+  main section.cuerpoServicios .servicioReparacion {
+    max-width: 95%;
+  }
+  main section.cuerpoServicios .servicioLimpieza {
+    max-width: 95%;
+  }
+  main section.cuerpoServicios .servicioPuestaPunto {
+    max-width: 95%;
+  }
+  main section.cuerpoServicios .servicioVenta {
+    max-width: 95%;
+  }
+  /* Sucursales */
+  main section .contenedorMapas .mapaSucursales {
+    max-width: 95%;
+  }
+  /* Contacto */
+  main section form {
+    max-width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main section form fieldset {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main section form fieldset .filaNombreTelefonoMail {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  main section form fieldset .filaRedSocial {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  main section form fieldset .tipoContacto {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main section form fieldset .consultaNewsletter {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  /* Footer */
+  footer {
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+/* Css para Tablet */
+@media screen and (max-width: 768px) {
+  /* Header y menú de navegación */
+  header .contenedorLogo {
+    margin: 2px;
+    margin-left: 10px;
+  }
+  /* main */
+  /* Nosotros */
+  main section.seccionNosotros .grillaNosotros {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 95%;
+  }
+  main section .seccionNosotrosHijo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main section .seccionNosotrosHijo .videoNosotros {
+    width: 95%;
+    margin: auto;
+    margin-top: 5%;
+  }
+  main section .seccionNosotrosHijo .parrafoNosotros2 {
+    width: 95%;
+    text-align: justify;
+    margin: auto;
+  }
+  main section .seccionNosotrosHijo .imagenNosotros {
+    width: 95%;
+  }
+  /* Servicios */
+  main section.cuerpoServicios .servicioReparacion {
+    max-width: 95%;
+  }
+  main section.cuerpoServicios .servicioLimpieza {
+    max-width: 95%;
+  }
+  main section.cuerpoServicios .servicioPuestaPunto {
+    max-width: 95%;
+  }
+  main section.cuerpoServicios .servicioVenta {
+    max-width: 95%;
+  }
+  /* Sucursales */
+  main section .contenedorMapas .mapaSucursales {
+    max-width: 95%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

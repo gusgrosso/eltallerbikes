@@ -1,0 +1,60 @@
+/* Error 404 */
+
+section {
+    &.seccionError {
+        display: flex;
+        flex-direction: column;
+    }
+    .seccionErrorHijo {
+        display: flex;
+        justify-content: center;
+        .parrafoError {
+            width: 70%;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .imagenError {
+            width: 50vw;
+            height: auto;
+            border: #ce984e solid 3px;
+            border-radius: 5px;
+            margin: 10px 0 60px 0;
+        }    
+    }
+    .listaErrorBox {
+        margin: auto;
+        margin-top: 20px;
+        width: 60vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;        
+        ul {
+            list-style: none;
+            color: #ce984e;
+            li {
+                padding: 10px 20px 0 20px;
+                margin-bottom: 20px;
+                a {
+                    color:white;
+                    font-weight: bold;
+                    font-size: 16px;
+                    padding: 5px 10px;
+                    margin-right: 20px;
+                    background-color: black;
+                    border-radius: 5px;
+                    border: #ce984e solid 1px;
+                    text-decoration: none;
+                }
+                a:hover {
+                    background-color:#ce984e;
+                    border-radius: 5px;
+                    border: #ce984e solid 1px;
+                    color: white;
+                    padding: 5px 10px;
+                    font-weight: bold;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}

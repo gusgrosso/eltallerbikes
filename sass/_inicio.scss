@@ -1,0 +1,25 @@
+/* Inicio */
+section {
+    &.seccionInicio {
+        display: flex;
+        flex-direction: column;
+    }
+    .seccionInicioHijo {
+        display: flex;
+        justify-content: center;
+        .parrafoInicio {
+            width: 70%;
+            text-align: justify;
+            margin-bottom: 30px;
+        }
+        .imagenInicio {
+            width: 70%;
+            border: #ce984e solid 3px;
+            border-radius: 5px;
+            margin: 10px 0 60px 0;
+        }
+    }
+}
+
+
+
