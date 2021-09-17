@@ -305,7 +305,7 @@ section.cuerpoServicios .servicioReparacion {
 
 section.cuerpoServicios .servicioReparacion .servicioFondoOpacidad {
   background-color: black;
-  opacity: 70%;
+  opacity: 80%;
   padding: 10px;
   text-align: center;
 }
@@ -330,7 +330,7 @@ section.cuerpoServicios .servicioLimpieza {
 
 section.cuerpoServicios .servicioLimpieza .servicioFondoOpacidad {
   background-color: black;
-  opacity: 70%;
+  opacity: 80%;
   padding: 10px;
   text-align: center;
 }
@@ -355,7 +355,7 @@ section.cuerpoServicios .servicioPuestaPunto {
 
 section.cuerpoServicios .servicioPuestaPunto .servicioFondoOpacidad {
   background-color: black;
-  opacity: 70%;
+  opacity: 80%;
   padding: 10px;
   text-align: center;
 }
@@ -380,7 +380,7 @@ section.cuerpoServicios .servicioVenta {
 
 section.cuerpoServicios .servicioVenta .servicioFondoOpacidad {
   background-color: black;
-  opacity: 70%;
+  opacity: 80%;
   padding: 10px;
   text-align: center;
 }
