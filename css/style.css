@@ -779,7 +779,7 @@ section .listaErrorBox ul li a:hover {
   header a img {
     width: 200px;
   }
-  header .contenedorLogo {
+  header .header__contenedorLogo {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -788,11 +788,11 @@ section .listaErrorBox ul li a:hover {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  header nav {
+  header nav.header__nav__menuNavegacion {
     margin: 0;
     margin-bottom: 15px;
   }
-  header nav ul li {
+  header nav.header__nav__menuNavegacion ul li {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -800,11 +800,11 @@ section .listaErrorBox ul li a:hover {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  header nav ul li.openSubmenu .subMenuServicios {
+  header nav.header__nav__menuNavegacion ul li.openSubmenu .header__nav__subMenuServicios {
     bottom: 0;
     right: 0;
   }
-  header nav ul li a {
+  header nav.header__nav__menuNavegacion ul li a {
     width: 80%;
     text-align: center;
   }
@@ -929,7 +929,7 @@ section .listaErrorBox ul li a:hover {
 /* Css para Tablet */
 @media screen and (max-width: 768px) {
   /* Header y menú de navegación */
-  header .contenedorLogo {
+  header .header__contenedorLogo {
     margin: 2px;
     margin-left: 10px;
   }

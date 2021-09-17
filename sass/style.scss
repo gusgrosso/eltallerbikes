@@ -64,12 +64,12 @@ main {
                 width: 200px;
             }
         }
-        .contenedorLogo {
+        .header__contenedorLogo {
             display: flex;
             margin: 0;
             justify-content: center;
         }
-        nav {
+        nav.header__nav__menuNavegacion {
             margin: 0;
             margin-bottom: 15px;
             ul {
@@ -77,7 +77,7 @@ main {
                     display: flex;
                     justify-content: center;
                     &.openSubmenu {
-                        .subMenuServicios {
+                        .header__nav__subMenuServicios {
                             bottom: 0;
                             right: 0;
                         }
@@ -212,7 +212,7 @@ main {
 
 /* Header y menú de navegación */
     header {
-        .contenedorLogo {
+        .header__contenedorLogo {
             margin: 2px;
             margin-left: 10px;    
         }
