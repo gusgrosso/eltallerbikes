@@ -292,81 +292,21 @@ section.cuerpoServicios .margenTopMenu {
 
 section.cuerpoServicios .servicioReparacion {
   background-image: url(../img/reparacion.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 900px;
-  min-height: 450px;
-  margin-top: 60px;
-  margin-bottom: 20px;
-  border-radius: 5px;
-  border: #ce984e solid 3px;
-}
-
-section.cuerpoServicios .servicioReparacion .servicioFondoOpacidad {
-  background-color: black;
-  opacity: 90%;
-  padding: 10px;
-  text-align: center;
-}
-
-section.cuerpoServicios .servicioReparacion .servicioFondoOpacidad .parrafoServiciosJustificado {
-  text-align: justify;
-  padding: 10px;
 }
 
 section.cuerpoServicios .servicioLimpieza {
   background-image: url(../img/limpieza.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 900px;
-  min-height: 450px;
-  margin-top: 60px;
-  margin-bottom: 20px;
-  border-radius: 5px;
-  border: #ce984e solid 3px;
-}
-
-section.cuerpoServicios .servicioLimpieza .servicioFondoOpacidad {
-  background-color: black;
-  opacity: 90%;
-  padding: 10px;
-  text-align: center;
-}
-
-section.cuerpoServicios .servicioLimpieza .servicioFondoOpacidad .parrafoServiciosJustificado {
-  text-align: justify;
-  padding: 10px;
 }
 
 section.cuerpoServicios .servicioPuestaPunto {
   background-image: url(../img/puestaapunto.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 900px;
-  min-height: 450px;
-  margin-top: 60px;
-  margin-bottom: 20px;
-  border-radius: 5px;
-  border: #ce984e solid 3px;
-}
-
-section.cuerpoServicios .servicioPuestaPunto .servicioFondoOpacidad {
-  background-color: black;
-  opacity: 90%;
-  padding: 10px;
-  text-align: center;
-}
-
-section.cuerpoServicios .servicioPuestaPunto .servicioFondoOpacidad .parrafoServiciosJustificado {
-  text-align: justify;
-  padding: 10px;
 }
 
 section.cuerpoServicios .servicioVenta {
   background-image: url(../img/venta.jpg);
+}
+
+section.cuerpoServicios .boxServicios {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -378,14 +318,14 @@ section.cuerpoServicios .servicioVenta {
   border: #ce984e solid 3px;
 }
 
-section.cuerpoServicios .servicioVenta .servicioFondoOpacidad {
+section.cuerpoServicios .boxServicios .servicioFondoOpacidad {
   background-color: black;
   opacity: 90%;
   padding: 10px;
   text-align: center;
 }
 
-section.cuerpoServicios .servicioVenta .servicioFondoOpacidad .parrafoServiciosJustificado {
+section.cuerpoServicios .boxServicios .servicioFondoOpacidad .parrafoServiciosJustificado {
   text-align: justify;
   padding: 10px;
 }

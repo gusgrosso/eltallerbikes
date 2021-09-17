@@ -29,50 +29,17 @@ section {
         }
         .servicioReparacion {
             background-image: url(../img/reparacion.jpg);
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            width: $altBoxServicios;
-            min-height: $altBoxServicios/2;
-            margin-top: 60px;
-            margin-bottom: 20px;
-            border-radius: 5px;
-            border: #ce984e solid 3px;
-            .servicioFondoOpacidad {
-                background-color: black;
-                opacity: 90%;
-                padding: 10px;
-                text-align: center;
-                .parrafoServiciosJustificado {
-                    text-align: justify;
-                    padding: 10px;
-                }
-            }
         }
         .servicioLimpieza {
             background-image: url(../img/limpieza.jpg);
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            width: $altBoxServicios;
-            min-height: $altBoxServicios/2;
-            margin-top: 60px;
-            margin-bottom: 20px;
-            border-radius: 5px;
-            border: #ce984e solid 3px;
-            .servicioFondoOpacidad {
-                background-color: black;
-                opacity: 90%;
-                padding: 10px;
-                text-align: center;
-                .parrafoServiciosJustificado {
-                    text-align: justify;
-                    padding: 10px;
-                }
-            }
         }
         .servicioPuestaPunto {
             background-image: url(../img/puestaapunto.jpg);
+        }
+        .servicioVenta {
+            background-image: url(../img/venta.jpg);
+        }
+        .boxServicios {
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -93,27 +60,9 @@ section {
                 }
             }
         }
-        .servicioVenta {
-            background-image: url(../img/venta.jpg);
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            width: $altBoxServicios;
-            min-height: $altBoxServicios/2;
-            margin-top: 60px;
-            margin-bottom: 20px;
-            border-radius: 5px;
-            border: #ce984e solid 3px;;
-            .servicioFondoOpacidad {
-                background-color: black;
-                opacity: 90%;
-                padding: 10px;
-                text-align: center;
-                .parrafoServiciosJustificado {
-                    text-align: justify;
-                    padding: 10px;
-                }
-            }
-        }
+        
+         
+            
+        
     }
 }
