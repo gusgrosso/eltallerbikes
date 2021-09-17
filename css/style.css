@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* Reset */
+/* Reset General */
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +8,7 @@
   font-family: 'Roboto', sans-serif;
 }
 
+/* Body General */
 body {
   background-image: radial-gradient(black, #332e26);
 }
@@ -88,12 +89,12 @@ li.openSubmenu:hover ul.header__nav__subMenuServicios {
   display: block;
 }
 
-/* Main */
+/* Main General */
 main {
   width: 100%;
 }
 
-/* General*/
+/* General */
 h1 {
   color: #ce984e;
   font-style: italic;
@@ -760,7 +761,7 @@ section .listaErrorBox ul li a:hover {
 
 /* Css para Mobile */
 @media screen and (max-width: 426px) {
-  /* Header y menú de navegación */
+  /* Header y menú de navegación para Mobile */
   header {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -808,8 +809,7 @@ section .listaErrorBox ul li a:hover {
     width: 80%;
     text-align: center;
   }
-  /* main */
-  /* Nosotros */
+  /* Nosotros para Mobile */
   main {
     width: 100%;
   }
@@ -848,7 +848,7 @@ section .listaErrorBox ul li a:hover {
     text-align: justify;
     width: 80%;
   }
-  /* Servicios */
+  /* Servicios para Mobile */
   main section.cuerpoServicios .servicioReparacion {
     max-width: 95%;
   }
@@ -861,11 +861,11 @@ section .listaErrorBox ul li a:hover {
   main section.cuerpoServicios .servicioVenta {
     max-width: 95%;
   }
-  /* Sucursales */
+  /* Sucursales para Mobile*/
   main section .contenedorMapas .mapaSucursales {
     max-width: 95%;
   }
-  /* Contacto */
+  /* Contacto para Mobile */
   main section form {
     max-width: 95%;
     display: -webkit-box;
@@ -913,7 +913,7 @@ section .listaErrorBox ul li a:hover {
         -ms-flex-align: center;
             align-items: center;
   }
-  /* Footer */
+  /* Footer para Mobile */
   footer {
     height: auto;
     display: -webkit-box;
@@ -923,18 +923,31 @@ section .listaErrorBox ul li a:hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    font-size: medium;
+  }
+  footer .footer__box__mapaSitio, footer .footer__box__casaCentral, footer .footer__box__nuestrasRedes {
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+  footer .footer__box__mapaSitio .footer__h5, footer .footer__box__casaCentral .footer__h5, footer .footer__box__nuestrasRedes .footer__h5 {
+    font-size: large;
+  }
+  footer .footer__box__mapaSitio ul.footer__ul, footer .footer__box__casaCentral ul.footer__ul, footer .footer__box__nuestrasRedes ul.footer__ul {
+    padding: 20px;
+  }
+  footer .footer__box__mapaSitio ul.footer__ul li, footer .footer__box__casaCentral ul.footer__ul li, footer .footer__box__nuestrasRedes ul.footer__ul li {
+    padding-top: 10px;
   }
 }
 
 /* Css para Tablet */
 @media screen and (max-width: 768px) {
-  /* Header y menú de navegación */
+  /* Header y menú de navegación para Tablet */
   header .header__contenedorLogo {
     margin: 2px;
     margin-left: 10px;
   }
-  /* main */
-  /* Nosotros */
+  /* Nosotros para Tablet */
   main section.seccionNosotros .grillaNosotros {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -967,7 +980,7 @@ section .listaErrorBox ul li a:hover {
   main section .seccionNosotrosHijo .imagenNosotros {
     width: 95%;
   }
-  /* Servicios */
+  /* Servicios para Tablet */
   main section.cuerpoServicios .servicioReparacion {
     max-width: 95%;
   }
@@ -980,7 +993,7 @@ section .listaErrorBox ul li a:hover {
   main section.cuerpoServicios .servicioVenta {
     max-width: 95%;
   }
-  /* Sucursales */
+  /* Sucursales para Tablet */
   main section .contenedorMapas .mapaSucursales {
     max-width: 95%;
   }

@@ -1,0 +1,20 @@
+/* Servicios para Mobile */
+
+main {
+    section {
+        &.cuerpoServicios {
+            .servicioReparacion {
+                max-width: 95%;
+            }
+            .servicioLimpieza {
+                max-width: 95%;
+            }
+            .servicioPuestaPunto {
+                max-width: 95%;
+            }
+            .servicioVenta {
+                max-width: 95%;
+            }
+        }
+    }
+}

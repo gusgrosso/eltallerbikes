@@ -1,0 +1,21 @@
+/* Footer para Mobile */
+footer {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    font-size: medium;
+    .footer__box__mapaSitio, .footer__box__casaCentral, .footer__box__nuestrasRedes {
+        margin-top: 30px;
+        margin-bottom: 60px;
+        .footer__h5 {
+            font-size: large;
+        }
+        ul.footer__ul {
+            padding: 20px;
+            li {
+                padding-top: 10px;
+            }
+        }
+    }
+}
+

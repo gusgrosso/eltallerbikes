@@ -1,0 +1,32 @@
+/* Nosotros para Tablet */
+
+    
+main {
+    section {
+        &.seccionNosotros {
+            .grillaNosotros {
+                display: flex;
+                flex-direction: column;
+                width: 95%;
+                }
+                
+            }
+            .seccionNosotrosHijo {
+                display: flex;
+                flex-direction: column;
+                .videoNosotros {
+                    width: 95%;
+                    margin: auto;
+                    margin-top: 5%;
+                }
+                .parrafoNosotros2 {
+                    width: 95%;
+                    text-align: justify;
+                    margin: auto;
+                }
+                .imagenNosotros {
+                    width: 95%;
+                }
+        }
+    }
+}

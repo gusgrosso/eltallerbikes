@@ -1,0 +1,29 @@
+/* Contacto para Mobile */
+main {
+    section {
+        form {
+            max-width: 95%;
+            display: flex;
+            flex-direction: column;
+            fieldset {
+                    display: flex;
+                    flex-direction: column;
+                    .filaNombreTelefonoMail {
+                        display: flex;
+                        flex-direction: column !important;
+                    }
+                    .filaRedSocial {
+                        display: flex;
+                        flex-direction: column !important;
+                    }
+                    .tipoContacto {
+                        align-items: center;
+                    }
+                    .consultaNewsletter {
+                        align-items: center;
+                    }
+                }
+            }
+        }
+        
+    }

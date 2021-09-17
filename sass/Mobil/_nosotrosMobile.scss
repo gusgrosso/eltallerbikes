@@ -1,0 +1,33 @@
+/* Nosotros para Mobile */
+main {
+    width: 100%;
+    section {        
+        &.seccionNosotros {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            .grillaNosotros {
+                display: flex;
+                flex-direction: column;
+                .seccionNosotrosHijo {
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
+                    video {
+                        width: 100%;
+                        height: auto;
+                    }
+                } 
+            .seccionNosotrosHijo {
+                width: 100%;
+                padding: 20px;
+                .parrafoNosotros2 {
+                    text-align: justify;
+                    width: 80%;
+                }
+            }
+            }
+        }
+    }
+}

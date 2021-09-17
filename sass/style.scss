@@ -1,4 +1,4 @@
-/* Reset */
+/* Reset General */
 *{
     margin: 0;
     padding: 0;
@@ -6,19 +6,22 @@
     font-family: 'Roboto', sans-serif;
 }
 
-body {
-    background-image: radial-gradient(black, #332e26);
-}
+/* Body General */
+    body {
+        background-image: radial-gradient(black, #332e26);
+    }
+
+// Header Desktop
+@import "headerDesktop";
 
 
-@import "header";
+/* Main General */
+    main {
+        width: 100%;
+    }
 
-/* Main */
-main {
-    width: 100%;
-}
 
-/* General*/
+/* General */
     h1 {
         color:#ce984e;
         font-style: italic;
@@ -36,257 +39,70 @@ main {
         color:#ce984e; 
     }
 
-@import "inicio";
-@import "nosotros";
-@import "servicios";
-@import "productos";
-@import "sucursales";
-@import "contacto";
-@import "footer";
-@import "error404";
+    // Inicio Desktop
+    @import "inicio";
+
+    // Nosotros Desktop
+    @import "nosotros";
+    
+    // Servicios Desktop
+    @import "servicios";
+    
+    // Productos Desktop
+    @import "productos";
+    
+    // Sucursales Desktop
+    @import "sucursales";
+    
+    // Contacto Desktop
+    @import "contacto";
+    
+    // Footer Desktop
+    @import "footer";
+    
+    // error404 Desktop
+    @import "error404";
 
 
 
 
 /* Css para Mobile */
+@media screen and (max-width: 426px) {
 
-@media screen and (max-width: 426px)
-{
-/* Header y menú de navegación */
-    header {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
-        position: relative;
-        a {
-            img {
-                width: 200px;
-            }
-        }
-        .header__contenedorLogo {
-            display: flex;
-            margin: 0;
-            justify-content: center;
-        }
-        nav.header__nav__menuNavegacion {
-            margin: 0;
-            margin-bottom: 15px;
-            ul {
-                li {
-                    display: flex;
-                    justify-content: center;
-                    &.openSubmenu {
-                        .header__nav__subMenuServicios {
-                            bottom: 0;
-                            right: 0;
-                        }
-                    }
-                    a {
-                        width: 80%;
-                        text-align: center;
-                    }
-                }
-            }
-        }
-    }
+    // Header para Mobile 
+    @import "./Mobil/headerMobile";
 
-/* main */
+    // Nosotros para Mobile
+    @import "./Mobil/nosotrosMobile";
 
-    /* Nosotros */
-    main {
-        width: 100%;
-        section {        
-            &.seccionNosotros {
-                width: 100%;
-                display: flex;
-                flex-direction: column;
-                .grillaNosotros {
-                    display: flex;
-                    flex-direction: column;
-                    .seccionNosotrosHijo {
-                        img {
-                            width: 100%;
-                            height: auto;
-                        }
-                        video {
-                            width: 100%;
-                            height: auto;
-                        }
-                    } 
-                .seccionNosotrosHijo {
-                    width: 100%;
-                    padding: 20px;
-                    .parrafoNosotros2 {
-                        text-align: justify;
-                        width: 80%;
-                    }
-                }
-                }
-            }
-        }
-    } 
+    // Servicios para Mobile
+    @import "./Mobil/serviciosMobile";
 
-    /* Servicios */
-
-    main {
-        section {
-            &.cuerpoServicios {
-                .servicioReparacion {
-                    max-width: 95%;
-                }
-                .servicioLimpieza {
-                    max-width: 95%;
-                }
-                .servicioPuestaPunto {
-                    max-width: 95%;
-                }
-                .servicioVenta {
-                    max-width: 95%;
-                }
-            }
-        }
-    } 
-               
-
-        
-    /* Sucursales */
-
-    main {
-        section {
-            .contenedorMapas {
-                .mapaSucursales {
-                    max-width: 95%;
-                }
-            }
-        }
-    }
-        
-
-    /* Contacto */
-   main {
-        section {
-            form {
-                max-width: 95%;
-                display: flex;
-                flex-direction: column;
-                fieldset {
-                        display: flex;
-                        flex-direction: column;
-                        .filaNombreTelefonoMail {
-                            display: flex;
-                            flex-direction: column !important;
-                        }
-                        .filaRedSocial {
-                            display: flex;
-                            flex-direction: column !important;
-                        }
-                        .tipoContacto {
-                            align-items: center;
-                        }
-                        .consultaNewsletter {
-                            align-items: center;
-                        }
-                    }
-                }
-            }
-            
-        }
-           
+    // Sucursales para Mobile
+    @import "./Mobil/sucursalesMobile";
     
+    // Contacto para Mobile
+    @import "./Mobil/contactoMobile";
+     
+    // Footer para Mobile
+    @import "./Mobil/footerMobile";
 
-
-/* Footer */
-    footer {
-        height: auto;
-        display: flex;
-        flex-direction: column;
-    }
-
-}
-
+}    
+        
 
 /* Css para Tablet */
-
 @media screen and (max-width: 768px) {
 
-/* Header y menú de navegación */
-    header {
-        .header__contenedorLogo {
-            margin: 2px;
-            margin-left: 10px;    
-        }
-    }
+    // Header para Tablet
+    @import "./Tablet/headerTablet";
     
+    // Nosotros para Tablet
+    @import "./Tablet/nosotrosTablet";
 
-/* main */
-
-    /* Nosotros */
-
-    
-        main {
-            section {
-                &.seccionNosotros {
-                    .grillaNosotros {
-                        display: flex;
-                        flex-direction: column;
-                        width: 95%;
-                        }
-                        
-                    }
-                    .seccionNosotrosHijo {
-                        display: flex;
-                        flex-direction: column;
-                        .videoNosotros {
-                            width: 95%;
-                            margin: auto;
-                            margin-top: 5%;
-                        }
-                        .parrafoNosotros2 {
-                            width: 95%;
-                            text-align: justify;
-                            margin: auto;
-                        }
-                        .imagenNosotros {
-                            width: 95%;
-                        }
-                }
-            }
-        }
+    // Servicios para Tablet
+    @import "./Tablet/serviciosTablet";
         
-
-
-    /* Servicios */
-    main {
-        section {
-            &.cuerpoServicios {
-                .servicioReparacion {
-                    max-width: 95%;
-                }
-                .servicioLimpieza {
-                    max-width: 95%;
-                }
-                .servicioPuestaPunto {
-                    max-width: 95%;
-                }
-                .servicioVenta {
-                    max-width: 95%;
-                }
-            }
-        }
-    }
-    
-        
-    /* Sucursales */
-        
-        main {
-            section {
-                .contenedorMapas {
-                    .mapaSucursales {
-                        max-width: 95%;
-                    }
-                }
-            }
-        }
-
+    // Sucursales para Tablet
+    @import "./Tablet/sucursalesTablet";
+         
 }

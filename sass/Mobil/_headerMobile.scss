@@ -1,0 +1,39 @@
+/* Header y menú de navegación para Mobile */
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    a {
+        img {
+            width: 200px;
+        }
+    }
+    .header__contenedorLogo {
+        display: flex;
+        margin: 0;
+        justify-content: center;
+    }
+    nav.header__nav__menuNavegacion {
+        margin: 0;
+        margin-bottom: 15px;
+        ul {
+            li {
+                display: flex;
+                justify-content: center;
+                &.openSubmenu {
+                    .header__nav__subMenuServicios {
+                        bottom: 0;
+                        right: 0;
+                    }
+                }
+                a {
+                    width: 80%;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
