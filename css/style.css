@@ -577,11 +577,11 @@ main section.seccionFormulario form .contenedorFormulario .botonesForm .botonLim
 /* footer */
 footer {
   width: 100%;
-  height: 150px;
-  padding: 10px;
+  height: 250px;
+  padding: 20px;
   color: white;
   background-color: black;
-  font-size: 12px;
+  font-size: medium;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -608,7 +608,7 @@ footer .footer__box__mapaSitio {
 }
 
 footer .footer__h5 {
-  font-size: 14px;
+  font-size: large;
   color: #ce984e;
   margin-bottom: 10px;
 }
@@ -619,9 +619,20 @@ footer .footer__ul {
   padding-left: 0;
 }
 
+footer .footer__ul li {
+  padding-top: 5px;
+}
+
+footer .footer__ul li p {
+  display: inline;
+  padding-left: 8px;
+  color: white;
+  opacity: 80%;
+}
+
 footer .footer__ul__a {
   color: white;
-  margin-left: 6px;
+  margin-left: 8px;
   opacity: 80%;
   text-decoration: none;
 }
