@@ -17,11 +17,11 @@ La web fue construida con las siguientes herramientas:<br/>
 
 + [Index.html](https://gusgrosso.github.io/eltallerbikes/index.html) (El home o inicio)
 + [Nosotros.html](https://gusgrosso.github.io/eltallerbikes/pages/nosotros.html) (Presentación de las personas que componen El Taller Bikes)
-+ Servicios.html (Como lo indica su nombre, los servicios ofrecidos)
-+ Productos.html (un listado de productos que se pueden conseguir en El Taller Bikes)
-+ Sucursales.html (dirección, mapa, teléfonos y mail de las distintas sucursales)
-+ Contacto.html (el formulario de contacto)
-+ Error404.html (para ser configurada en el hosting)
++ [Servicios.html](https://gusgrosso.github.io/eltallerbikes/pages/servicios.html) (Como lo indica su nombre, los servicios ofrecidos)
++ [Productos.html](https://gusgrosso.github.io/eltallerbikes/pages/productos.html) (un listado de productos que se pueden conseguir en El Taller Bikes)
++ [Sucursales.html](https://gusgrosso.github.io/eltallerbikes/pages/sucursales.html) (dirección, mapa, teléfonos y mail de las distintas sucursales)
++ [Contacto.html](https://gusgrosso.github.io/eltallerbikes/pages/contacto.html) (el formulario de contacto)
++ [Error404.html](https://gusgrosso.github.io/eltallerbikes/pages/error404.html) (para ser configurada en el hosting)
 
 <br/><br/>
 
