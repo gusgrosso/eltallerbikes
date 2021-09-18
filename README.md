@@ -6,7 +6,7 @@ La web fue construida con las siguientes herramientas:<br/>
 + CSS (hojas de estilo)
 + SASS (procesador del css)
 + PHOTOSHOP (se utilizó para la optimización de las imágenes)
-+ BOOTSTRAP (se utilizó para la galería de imágenes)
++ BOOTSTRAP (utilizado para la galería de imágenes en nosotrol.html)
 + GIT (repositorio local)
 + GITHUB (repositorio remoto)
 
@@ -15,8 +15,8 @@ La web fue construida con las siguientes herramientas:<br/>
 ### El sitio cuenta con las siguientes páginas:
 
 
-+ Index.html (El home o inicio)
-+ Nosotros.html (Presentación de las personas que componen El Taller Bikes)
++ [Index.html](https://gusgrosso.github.io/eltallerbikes/index.html) (El home o inicio)
++ [Nosotros.html](https://gusgrosso.github.io/eltallerbikes/pages/nosotros.html) (Presentación de las personas que componen El Taller Bikes)
 + Servicios.html (Como lo indica su nombre, los servicios ofrecidos)
 + Productos.html (un listado de productos que se pueden conseguir en El Taller Bikes)
 + Sucursales.html (dirección, mapa, teléfonos y mail de las distintas sucursales)
