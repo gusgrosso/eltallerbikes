@@ -9,6 +9,7 @@ La web fue construida con las siguientes herramientas:<br/>
 + BOOTSTRAP (utilizado para la galería de imágenes en nosotrol.html)
 + GIT (repositorio local)
 + GITHUB (repositorio remoto)
++ Filezila (subir web a hosting por FTP)
 
 <br/><br/>
 
@@ -25,7 +26,12 @@ La web fue construida con las siguientes herramientas:<br/>
 
 <br/><br/>
 
+### Realización <br/>
+Al realizar este sitio, se aplicaron todos las enseñanzas adquiridas en el curso **Desarrollo Web**. Se tuvo en cuenta la sintaxis del código, se respetó la estructura HTML. Se aplicó la optimización de motores de búsqueda (Search Engine Optimization - **SEO**). La web es **Responsive**, por lo tanto se puede ver de manera correcta tanto en Mobiles, como en Tablets o en Desktop (monitores de escritorio).<br>
+
+
 ### Se puede visualizar mediante [GitHub Pages](https://gusgrosso.github.io/eltallerbikes/)
+### O también mediante [https://ar.000webhost.com/](https://eltallerbikes.000webhostapp.com/)
 
 <br/><br/>
 
