@@ -23,7 +23,10 @@ La web fue construida con las siguientes herramientas:
 + Error404.html (para ser configurada en el hosting)
 
 
-##### Realizado por: Gustavo Grosso
+Se puede visualizar mediante [GitHub Pages](https://gusgrosso.github.io/eltallerbikes/)
+
+
+### Realizado por: * *Gustavo Grosso* *
 + **Para:** Curso Desarrollo web - Coderhouse
 + **Camada:** 22220
 + **Profesor:** Rodrigo Zungri
