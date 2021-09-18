@@ -1,7 +1,7 @@
 # **Repositorio El Taller Bikes**
 
-**El Taller Bikes** es una web donde se ofrecen los servicios de reparación, venta de bicicletas y accesorios.
-La web fue construida con las siguientes herramientas:
+**El Taller Bikes** es una web donde se ofrecen los servicios de reparación, venta de bicicletas y accesorios.<br/><br/>
+La web fue construida con las siguientes herramientas:<br/>
 + HTML (estructura del sitio)
 + CSS (hojas de estilo)
 + SASS (procesador del css)
@@ -10,6 +10,7 @@ La web fue construida con las siguientes herramientas:
 + GIT (repositorio local)
 + GITHUB (repositorio remoto)
 
+<br/><br/>
 
 ### El sitio cuenta con las siguientes páginas:
 
@@ -22,11 +23,13 @@ La web fue construida con las siguientes herramientas:
 + Contacto.html (el formulario de contacto)
 + Error404.html (para ser configurada en el hosting)
 
+<br/><br/>
 
-Se puede visualizar mediante [GitHub Pages](https://gusgrosso.github.io/eltallerbikes/)
+### Se puede visualizar mediante [GitHub Pages](https://gusgrosso.github.io/eltallerbikes/)
 
+<br/><br/>
 
-### Realizado por: * *Gustavo Grosso* *
+### Realizado por: * *Gustavo Grosso* * <br/>
 + **Para:** Curso Desarrollo web - Coderhouse
 + **Camada:** 22220
 + **Profesor:** Rodrigo Zungri
