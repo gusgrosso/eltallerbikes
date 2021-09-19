@@ -1,6 +1,6 @@
 # **Repositorio El Taller Bikes**
 
-**El Taller Bikes** es una web donde se ofrecen los servicios de reparación, venta de bicicletas y accesorios.<br/><br/>
+**El Taller Bikes** es la web de la cadena de negocios donde se ofrecen los servicios de reparación, venta de bicicletas y accesorios.<br/><br/>
 La web fue construida con las siguientes herramientas:<br/>
 + Visual Studio Code (Editor de texto).
 + HTML (Lenguaje de marcado de etiquetas).
