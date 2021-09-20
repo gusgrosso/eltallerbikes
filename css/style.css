@@ -128,6 +128,10 @@ section .seccionInicioHijo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -135,15 +139,23 @@ section .seccionInicioHijo {
 
 section .seccionInicioHijo .parrafoInicio {
   width: 70%;
+  margin: auto;
   text-align: justify;
   margin-bottom: 30px;
+}
+
+section .seccionInicioHijo .parrafoInicio .parrafoInicio__a {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
 }
 
 section .seccionInicioHijo .imagenInicio {
   width: 70%;
   border: #ce984e solid 3px;
   border-radius: 5px;
-  margin: 10px 0 60px 0;
+  margin: 10px auto 60px;
 }
 
 /*Nosotros*/

@@ -6,17 +6,25 @@ section {
     }
     .seccionInicioHijo {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         .parrafoInicio {
             width: 70%;
+            margin: auto;
             text-align: justify;
             margin-bottom: 30px;
+            .parrafoInicio__a {
+                color:white;
+                    font-weight: bold;
+                    font-size: 16px;
+                    text-decoration: none;
+            }
         }
         .imagenInicio {
-            width: 70%;
+            width: 70%; 
             border: #ce984e solid 3px;
             border-radius: 5px;
-            margin: 10px 0 60px 0;
+            margin: 10px auto 60px;
         }
     }
 }
