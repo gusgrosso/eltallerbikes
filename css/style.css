@@ -144,7 +144,7 @@ section .seccionInicioHijo .parrafoInicio {
   margin-bottom: 30px;
 }
 
-section .seccionInicioHijo .parrafoInicio .parrafoInicio__a {
+section .seccionInicioHijo .parrafoInicio a.parrafoInicio__a {
   color: white;
   font-weight: bold;
   font-size: 16px;
