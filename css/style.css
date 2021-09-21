@@ -151,6 +151,10 @@ section .seccionInicioHijo .parrafoInicio a.parrafoInicio__a {
   text-decoration: none;
 }
 
+section .seccionInicioHijo .parrafoInicio a.parrafoInicio__a:hover {
+  color: #ce984e;
+}
+
 section .seccionInicioHijo .imagenInicio {
   width: 70%;
   border: #ce984e solid 3px;
@@ -171,7 +175,7 @@ main section.seccionNosotros {
       align-content: center;
 }
 
-main section .grillaNosotros {
+main section.seccionNosotros .grillaNosotros {
   width: 75%;
   display: -ms-grid;
   display: grid;
@@ -189,13 +193,13 @@ main section .grillaNosotros {
       align-self: center;
 }
 
-main section .grillaNosotros .grillanosotrosHijo1 {
+main section.seccionNosotros .grillaNosotros .grillanosotrosHijo1 {
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-column: 1/4;
 }
 
-main section .grillaNosotros .grillanosotrosHijo1 .seccionNosotrosHijo {
+main section.seccionNosotros .grillaNosotros .grillanosotrosHijo1 .seccionNosotrosHijo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -207,31 +211,24 @@ main section .grillaNosotros .grillanosotrosHijo1 .seccionNosotrosHijo {
           align-items: center;
 }
 
-main section .grillaNosotros .grillanosotrosHijo1 .seccionNosotrosHijo .parrafoNosotros {
+main section.seccionNosotros .grillaNosotros .grillanosotrosHijo1 .seccionNosotrosHijo .parrafoNosotros {
   text-align: justify;
   margin-bottom: 30px;
 }
 
-main section .grillaNosotros .grillanosotrosHijo1 .seccionNosotrosHijo .parrafoNosotros2 {
+main section.seccionNosotros .grillaNosotros .grillanosotrosHijo1 .seccionNosotrosHijo .parrafoNosotros2 {
   width: 70%;
   margin-bottom: 30px;
   text-align: justify;
 }
 
-main section .grillaNosotros .grillanosotrosHijo1 .seccionNosotrosHijo .videoNosotros {
-  width: 70%;
+main section.seccionNosotros .grillaNosotros .grillanosotrosHijo1 .seccionNosotrosHijo .imagenNosotros {
   border: #ce984e solid 3px;
   border-radius: 5px;
   margin: 10px 0 60px 0;
 }
 
-main section .grillaNosotros .grillanosotrosHijo1 .seccionNosotrosHijo .imagenNosotros {
-  border: #ce984e solid 3px;
-  border-radius: 5px;
-  margin: 10px 0 60px 0;
-}
-
-main section .grillaNosotros .grillanosotrosHijo2 {
+main section.seccionNosotros .grillanosotrosHijo2 {
   width: 300px;
   padding: 10px;
   -webkit-box-align: center;
@@ -245,19 +242,48 @@ main section .grillaNosotros .grillanosotrosHijo2 {
   text-align: justify;
 }
 
-main section .grillaNosotros .grillanosotrosHijo2 .fotoGrillaNosotros {
+main section.seccionNosotros .grillanosotrosHijo2 .fotoGrillaNosotros {
   width: 100%;
   border: #ce984e 3px solid;
   border-radius: 5px;
   margin-bottom: 20px;
 }
 
-main section .grillaNosotros .grillanosotrosHijo2 .fotoGrillaNosotros:hover {
+main section.seccionNosotros .grillanosotrosHijo2 .fotoGrillaNosotros:hover {
   -webkit-transform: scale(1.05, 1.05);
           transform: scale(1.05, 1.05);
 }
 
-main section hr {
+main section.seccionNosotros .seccionNosotrosHijo3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main section.seccionNosotros .seccionNosotrosHijo3 .parrafoNosotros3 {
+  width: 75%;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+main section.seccionNosotros .seccionNosotrosHijo3 .videoNosotros {
+  width: 75%;
+  border: #ce984e solid 3px;
+  border-radius: 5px;
+  margin: 10px 0 60px 0;
+}
+
+main section.seccionNosotros hr {
   border: #ce984e 1px solid;
   margin-bottom: 40px;
 }
