@@ -1280,6 +1280,15 @@ section .listaErrorBox ul li a:hover {
         -ms-flex-align: center;
             align-items: center;
   }
+  section .seccionErrorHijo .parrafoError {
+    width: 95%;
+  }
+  section .seccionErrorHijo .imagenError {
+    width: 95vw;
+  }
+  section .listaErrorBox {
+    width: 100%;
+  }
   /* Footer para Mobile */
   footer {
     height: auto;
