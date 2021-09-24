@@ -114,17 +114,7 @@ p {
 }
 
 /* Inicio */
-section.seccionInicio {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-section .seccionInicioHijo {
+main .contenedorIndex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -135,33 +125,333 @@ section .seccionInicioHijo {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-section .seccionInicioHijo .parrafoInicio {
-  width: 70%;
   margin: auto;
-  text-align: justify;
-  margin-bottom: 30px;
 }
 
-section .seccionInicioHijo .parrafoInicio a.parrafoInicio__a {
-  color: white;
-  font-weight: bold;
-  font-size: 16px;
+main .contenedorIndex .primerFilaIndex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  overflow: hidden;
+  border-top: #ce984e 3px solid;
+}
+
+main .contenedorIndex .primerFilaIndex .ocultar {
+  overflow: hidden;
+}
+
+main .contenedorIndex .primerFilaIndex .boxServiciosIndex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50vw;
+  height: 42vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(../img/reparacion.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+
+main .contenedorIndex .primerFilaIndex .boxServiciosIndex .boxLink {
   text-decoration: none;
 }
 
-section .seccionInicioHijo .parrafoInicio a.parrafoInicio__a:hover {
-  color: #ce984e;
+main .contenedorIndex .primerFilaIndex .boxServiciosIndex .boxLink .tituloSeccionIndex {
+  opacity: 00%;
+  font-size: 6em;
+  color: white;
+  text-shadow: 0px 0px 5px black;
+  -webkit-text-stroke: 1px #ce984e;
 }
 
-section .seccionInicioHijo .imagenInicio {
-  width: 70%;
-  border: #ce984e solid 3px;
-  border-radius: 5px;
-  margin: 10px auto 60px;
+main .contenedorIndex .primerFilaIndex .boxServiciosIndex:hover {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+  -webkit-transition: all 3s;
+  transition: all 3s;
 }
 
+main .contenedorIndex .primerFilaIndex .boxServiciosIndex:hover .tituloSeccionIndex {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+  -webkit-transition: all 3s;
+  transition: all 3s;
+  opacity: 100%;
+}
+
+main .contenedorIndex .primerFilaIndex .boxProductosIndex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50vw;
+  height: 42vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(../img/productosHome.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+
+main .contenedorIndex .primerFilaIndex .boxProductosIndex .boxLink {
+  text-decoration: none;
+}
+
+main .contenedorIndex .primerFilaIndex .boxProductosIndex .boxLink .tituloSeccionIndex {
+  opacity: 00%;
+  font-size: 6em;
+  color: white;
+  text-shadow: 0px 0px 5px black;
+  -webkit-text-stroke: 1px #ce984e;
+}
+
+main .contenedorIndex .primerFilaIndex .boxProductosIndex:hover {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+  -webkit-transition: all 3s;
+  transition: all 3s;
+}
+
+main .contenedorIndex .primerFilaIndex .boxProductosIndex:hover .tituloSeccionIndex {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  -webkit-transition: all 3s;
+  transition: all 3s;
+  opacity: 100%;
+}
+
+main .contenedorIndex .segundaFilaIndex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  overflow: hidden;
+  border-bottom: #ce984e 3px solid;
+}
+
+main .contenedorIndex .segundaFilaIndex .ocultar {
+  overflow: hidden;
+}
+
+main .contenedorIndex .segundaFilaIndex .boxNosotrosIndex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 34vw;
+  height: 42vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(../img/inicio.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+
+main .contenedorIndex .segundaFilaIndex .boxNosotrosIndex .boxLink {
+  text-decoration: none;
+}
+
+main .contenedorIndex .segundaFilaIndex .boxNosotrosIndex .boxLink .tituloSeccionIndex {
+  opacity: 00%;
+  font-size: 4em;
+  color: white;
+  text-shadow: 0px 0px 5px black;
+  -webkit-text-stroke: 1px #ce984e;
+}
+
+main .contenedorIndex .segundaFilaIndex .boxNosotrosIndex:hover {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+  -webkit-transition: all 3s;
+  transition: all 3s;
+}
+
+main .contenedorIndex .segundaFilaIndex .boxNosotrosIndex:hover .tituloSeccionIndex {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  -webkit-transition: all 3s;
+  transition: all 3s;
+  opacity: 100%;
+}
+
+main .contenedorIndex .segundaFilaIndex .boxSucursalesIndex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 34vw;
+  height: 42vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(../img/mapsSucursales.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+
+main .contenedorIndex .segundaFilaIndex .boxSucursalesIndex .boxLink {
+  text-decoration: none;
+}
+
+main .contenedorIndex .segundaFilaIndex .boxSucursalesIndex .boxLink .tituloSeccionIndex {
+  opacity: 0%;
+  font-size: 3em;
+  color: white;
+  text-shadow: 0px 0px 5px black;
+  -webkit-text-stroke: 1px #ce984e;
+}
+
+main .contenedorIndex .segundaFilaIndex .boxSucursalesIndex:hover {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: all 3s;
+  transition: all 3s;
+}
+
+main .contenedorIndex .segundaFilaIndex .boxSucursalesIndex:hover .tituloSeccionIndex {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: all 3s;
+  transition: all 3s;
+  opacity: 100%;
+}
+
+main .contenedorIndex .segundaFilaIndex .boxContactoIndex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 34vw;
+  height: 42vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(../img/mailBox.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+
+main .contenedorIndex .segundaFilaIndex .boxContactoIndex .boxLink {
+  text-decoration: none;
+}
+
+main .contenedorIndex .segundaFilaIndex .boxContactoIndex .boxLink .tituloSeccionIndex {
+  opacity: 00%;
+  font-size: 4em;
+  color: white;
+  text-shadow: 0px 0px 5px black;
+  -webkit-text-stroke: 1px #ce984e;
+}
+
+main .contenedorIndex .segundaFilaIndex .boxContactoIndex:hover {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+  -webkit-transition: all 3s;
+  transition: all 3s;
+}
+
+main .contenedorIndex .segundaFilaIndex .boxContactoIndex:hover .tituloSeccionIndex {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  -webkit-transition: all 3s;
+  transition: all 3s;
+  opacity: 100%;
+}
+
+/*
+section {
+    &.seccionInicio {
+        display: flex;
+        flex-direction: column;
+    }
+    .seccionInicioHijo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .parrafoInicio {
+            width: 70%;
+            margin: auto;
+            text-align: justify;
+            margin-bottom: 30px;
+            a.parrafoInicio__a {
+                color:white;
+                font-weight: bold;
+                font-size: 16px;
+                text-decoration: none;
+            }
+            a.parrafoInicio__a:hover {
+                color: #ce984e;
+            }
+        }
+        .imagenInicio {
+            width: 70%; 
+            border: #ce984e solid 3px;
+            border-radius: 5px;
+            margin: 10px auto 60px;
+        }
+    }
+}
+
+
+
+*/
 /*Nosotros*/
 main section.seccionNosotros {
   display: -webkit-box;
