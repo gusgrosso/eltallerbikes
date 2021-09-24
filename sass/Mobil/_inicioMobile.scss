@@ -1,0 +1,61 @@
+/* Inicio para Mobile */
+
+main {
+    .contenedorIndex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        width:100%;
+        .primerFilaIndex {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            .boxServiciosIndex {
+                width: 100vw;
+                .boxLink {
+                    .tituloSeccionIndex {
+                        font-size: 10vw;
+                    }
+                }
+            }
+            .boxProductosIndex {
+                width: 100vw;
+                .boxLink {
+                    .tituloSeccionIndex {
+                        font-size: 10vw;
+                    }
+                }
+            }
+        }
+        .segundaFilaIndex {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            .boxNosotrosIndex {
+                width: 100vw;
+                .boxLink {
+                    .tituloSeccionIndex {
+                        font-size: 10vw;
+                    }
+                }
+            }
+            .boxSucursalesIndex {
+                width: 100vw;
+                .boxLink {
+                    .tituloSeccionIndex {
+                        font-size: 10vw;
+                    }
+                }
+            }
+            .boxContactoIndex {
+                width: 100vw;
+                .boxLink {
+                    .tituloSeccionIndex {
+                        font-size: 10vw;
+                    }
+                }
+            }
+        }  
+    }
+}
