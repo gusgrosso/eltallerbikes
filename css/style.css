@@ -415,43 +415,6 @@ main .contenedorIndex .segundaFilaIndex .boxContactoIndex:hover .tituloSeccionIn
   opacity: 100%;
 }
 
-/*
-section {
-    &.seccionInicio {
-        display: flex;
-        flex-direction: column;
-    }
-    .seccionInicioHijo {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        .parrafoInicio {
-            width: 70%;
-            margin: auto;
-            text-align: justify;
-            margin-bottom: 30px;
-            a.parrafoInicio__a {
-                color:white;
-                font-weight: bold;
-                font-size: 16px;
-                text-decoration: none;
-            }
-            a.parrafoInicio__a:hover {
-                color: #ce984e;
-            }
-        }
-        .imagenInicio {
-            width: 70%; 
-            border: #ce984e solid 3px;
-            border-radius: 5px;
-            margin: 10px auto 60px;
-        }
-    }
-}
-
-
-
-*/
 /*Nosotros*/
 main section.seccionNosotros {
   display: -webkit-box;
