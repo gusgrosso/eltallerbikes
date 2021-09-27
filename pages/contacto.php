@@ -53,51 +53,43 @@
         <main>             
             <section class="seccionFormulario">           
                 <h1>Contacto</h1>           
-                <form action="contacto.php" method="POST">
-                    <fieldset class="contenedorFormulario">
-                        <div class="filaNombreTelefonoMail">
-                            <label class="textoFilaForm" for="nombre">Ingresa tu nombre y apellido:</label>
-                            <input id="nombre" type="text" placeholder="Nombre y Apellido" size="40">
-                        </div>
-                        <div class="filaNombreTelefonoMail">
-                            <label class="textoFilaForm" for="telefono">Ingresa tu telefono:</label>
-                            <input id="telefono" type="tel" placeholder="Teléfono" size="40">
-                        </div>
-                        <div class="filaNombreTelefonoMail">
-                            <label class="textoFilaForm" for="mail">Ingresa tu e-mail:</label>
-                            <input id="mail" type="email" placeholder="E-mail" size="40">
-                        </div>
-                        <div class="filaRedSocial">    
-                            <label for="redsocial">Red Social. Tenes cuenta en:</label>
-                            <select name="redsocial" id="redsocial" class="selectRedSocial">
-                                <option value="facebook">Facebook</option>
-                                <option value="twitter">Twitter</option>
-                                <option value="instagram">Instagram</option>
-                            </select>
-                            <label for="usuario">Cual es tu usuario?</label>
-                            <input id="usuario" type="text" placeholder="Ingresá tu usuario">
-                        </div>
-                        <div class="mensajeTextAreaBox">
-                            <label for="mensaje" class="textoMensaje">Escribe tu mensaje:</label>
-                            <textarea name="mensaje" id="mensaje" cols="30" rows="8" placeholder="Mensaje"></textarea>
-                        </div>
-                        <div class="tipoContacto">
-                            <label for="comocontacto">Cómo querés ser contactado?</label>
-                            <input name="comocontacto" type="checkbox">Teléfono.               
-                            <input name="comocontacto" type="checkbox">E-mail.
-                            <input name="comocontacto" type="checkbox">Red Social.
-                        </div>
-                        <div class="consultaNewsletter">
-                            <label for="newsletter">Deseas suscribirte al newsletter?:</label>
-                            <input type="radio" name="newsletter"> Si, claro.
-                            <input type="radio" name="newsletter"> No, gracias.
-                        </div>
-                        <div class="botonesForm">
-                            <input type="reset" value="Limpiar el formulario" class="botonLimpiaEnvia">
-                            <input type="submit" value="Enviar!" class="botonLimpiaEnvia">
-                        </div>
-                    </fieldset>
-                </form>
+                <?php
+                    if(isset($_POST['email'])) {    
+                        $email_to = "gustygrosso@yahoo.com.ar";
+                        $email_subject = "Contacto desde el sitio web El Taller Bikes";
+
+                        // Aquí se deberían validar los datos ingresados por el usuario
+                        if(!isset($_POST['nombre']) ||
+                            !isset($_POST['telefono']) ||
+                            !isset($_POST['mail']) ||
+                             {
+
+                                echo "<b>Ocurrió un error y el formulario no ha sido enviado. </b><br />";
+                                echo "Por favor, vuelva atrás y verifique la información ingresada<br />";
+                            die();
+                            }
+
+                        $email_message = "Detalles del formulario de contacto:\n\n";
+                        $email_message .= "Nombre: " . $_POST['nombre'] . "\n";
+                        $email_message .= "Teléfono: " . $_POST['telefono'] . "\n";
+                        $email_message .= "E-mail: " . $_POST['mail'] . "\n";
+                        $email_message .= "Red Social: " . $_POST['redsocial'] . "\n";
+                        $email_message .= "Usuario: " . $_POST['usuario'] . "\n\n";
+                        $email_message .= "Mensaje: " . $_POST['mensaje'] . "\n\n";
+                        $email_message .= "Como contactar: " . $_POST['comocontacto'] . "\n\n";
+                        $email_message .= "Newsletter: " . $_POST['newsletter'] . "\n\n";        
+
+
+
+                        // Se envía el e-mail usando la función mail() de PHP
+                        $headers = 'From: '.$email_from."\r\n".
+                        'Reply-To: '.$email_from."\r\n" .
+                        'X-Mailer: PHP/' . phpversion();
+                        @mail($email_to, $email_subject, $email_message, $headers);
+
+                        echo "¡El formulario se ha enviado con éxito!";
+                    }
+                ?>
             </section>
         </main>
         
