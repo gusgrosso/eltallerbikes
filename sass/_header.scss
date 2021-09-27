@@ -8,7 +8,7 @@ header {
     position: sticky;
     top: 0;
     left: 0;
-    border-bottom: #ce984e solid 3px;
+    border-bottom: $bordeGrueso;
     z-index: 1;
 }
 
@@ -34,14 +34,14 @@ nav.header__nav__menuNavegacion a.header__nav__a--botonPrincipal {
     padding: 5px 10px;
     background-color: black;
     border-radius: 5px;
-    border: #ce984e solid 1px;
+    border: $bordeAngosto;
     text-decoration: none;
 }
 
 nav.header__nav__menuNavegacion a.header__nav__a--botonPrincipal:hover {
-    background-color:#ce984e;
+    background-color:$colorPrincipal;
     border-radius: 5px;
-    border: #ce984e solid 1px;
+    border: $bordeAngosto;
     color: white;
     padding: 5px 10px;
     font-weight: bold;

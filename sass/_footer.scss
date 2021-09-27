@@ -18,7 +18,7 @@ footer {
     }
     .footer__h5 {
         font-size: large;
-        color: #ce984e;
+        color: $colorPrincipal;
         margin-bottom: 10px;
     }
     .footer__ul {
@@ -42,7 +42,7 @@ footer {
         text-decoration: none;
     }
     .footer__ul__a:hover {
-        color: #ce984e;
+        color: $colorPrincipal;
     }    
     .footer__ul__li__i {
         color:white;

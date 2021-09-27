@@ -12,7 +12,7 @@ section {
         align-content: center;
         align-items: center;
         h3 {
-            color: #ce984e;
+            color: $colorPrincipal;
         }
         .descripcionServicio {
             width: 70%;
@@ -48,7 +48,7 @@ section {
             margin-top: 60px;
             margin-bottom: 20px;
             border-radius: 5px;
-            border: #ce984e solid 3px;
+            border: $bordeGrueso;
             .servicioFondoOpacidad {
                 background-color: black;
                 opacity: 90%;

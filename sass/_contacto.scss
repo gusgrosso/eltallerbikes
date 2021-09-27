@@ -8,12 +8,12 @@ main {
             align-items: center;
             form {
                 width: 600px;
-                color: #ce984e;
+                color: $colorPrincipal;
                 display: flex;
                 flex-direction: column;
                 .contenedorFormulario {
                     padding: 30px;
-                    border: #ce984e 3px solid;
+                    border: $bordeGrueso;
                     margin-bottom: 80px;
                     background-color: black;
                     display: flex;
@@ -67,10 +67,10 @@ main {
                             padding: 5px 10px;
                             background-color: black;
                             border-radius: 5px;
-                            border: #ce984e solid 1px;
+                            border: $bordeAngosto;
                         }
                         .botonLimpiaEnvia:hover {
-                            background-color: #ce984e;
+                            background-color: $colorPrincipal;
                         }
                     }
                 }

@@ -3,9 +3,9 @@
 
 .colorBoton {
     background-color:black !important;
-    border: #ce984e !important;
+    border: $colorPrincipal !important;
 }
 .colorBoton:hover {
-    background-color: #ce984e !important;
-    border: #ce984e !important;
+    background-color: $colorPrincipal !important;
+    border: $colorPrincipal !important;
 }

@@ -30,7 +30,7 @@ main {
                             text-align: justify;
                         }
                         .imagenNosotros {
-                            border: #ce984e solid 3px;
+                            border: $bordeGrueso;
                             border-radius: 5px;
                             margin: 10px 0 60px 0;
                         }
@@ -46,7 +46,7 @@ main {
                 text-align: justify;
                 .fotoGrillaNosotros {
                     width: 100%;
-                    border: #ce984e 3px solid;
+                    border: $bordeGrueso;
                     border-radius: 5px;
                     margin-bottom: 20px;
                 }
@@ -66,13 +66,13 @@ main {
                 }
                 .videoNosotros {
                     width: 75%;
-                    border: #ce984e solid 3px;
+                    border: $bordeGrueso;
                     border-radius: 5px;
                     margin: 10px 0 60px 0;
                 }
             }
             hr {
-                border: #ce984e 1px solid;
+                border: $bordeAngosto;
                 margin-bottom: 40px;
             }
     }

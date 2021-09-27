@@ -16,7 +16,7 @@ section {
         .imagenError {
             width: 50vw;
             height: auto;
-            border: #ce984e solid 3px;
+            border: $bordeGrueso;
             border-radius: 5px;
             margin: 10px 0 60px 0;
         }    
@@ -30,7 +30,7 @@ section {
         justify-content: center;        
         ul {
             list-style: none;
-            color: #ce984e;
+            color: $colorPrincipal;
             li {
                 padding: 10px 20px 0 20px;
                 margin-bottom: 20px;
@@ -42,13 +42,13 @@ section {
                     margin-right: 20px;
                     background-color: black;
                     border-radius: 5px;
-                    border: #ce984e solid 1px;
+                    border: $bordeAngosto;
                     text-decoration: none;
                 }
                 a:hover {
-                    background-color:#ce984e;
+                    background-color:$colorPrincipal;
                     border-radius: 5px;
-                    border: #ce984e solid 1px;
+                    border: $bordeAngosto;
                     color: white;
                     padding: 5px 10px;
                     font-weight: bold;

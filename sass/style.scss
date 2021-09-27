@@ -6,6 +6,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* Variables */
+
+    @import "variables";
+
 /* Body General */
     body {
         background-image: radial-gradient(black, #332e26);
@@ -23,7 +27,7 @@
 
 /* General */
     h1 {
-        color:#ce984e;
+        color: $colorPrincipal;
         font-style: italic;
         word-spacing: 5px;
         text-align: center;
@@ -31,12 +35,12 @@
     }
 
     h2 {
-        color: #ce984e;
+        color: $colorPrincipal;
         text-align: center;
         padding: 20px;
     }
     p {
-        color:#ce984e; 
+        color: $colorPrincipal; 
     }
 
     // Inicio Desktop

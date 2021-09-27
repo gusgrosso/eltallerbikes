@@ -8,6 +8,7 @@
   font-family: 'Roboto', sans-serif;
 }
 
+/* Variables */
 /* Body General */
 body {
   background-image: radial-gradient(black, #332e26);
@@ -137,7 +138,7 @@ main .contenedorIndex .primerFilaIndex {
       -ms-flex-direction: row;
           flex-direction: row;
   overflow: hidden;
-  border-top: #ce984e 3px solid;
+  border-top: #ce984e solid 3px;
 }
 
 main .contenedorIndex .primerFilaIndex .ocultar {
@@ -255,7 +256,7 @@ main .contenedorIndex .segundaFilaIndex {
       -ms-flex-direction: row;
           flex-direction: row;
   overflow: hidden;
-  border-bottom: #ce984e 3px solid;
+  border-bottom: #ce984e solid 3px;
 }
 
 main .contenedorIndex .segundaFilaIndex .ocultar {
@@ -497,7 +498,7 @@ main section.seccionNosotros .grillanosotrosHijo2 {
 
 main section.seccionNosotros .grillanosotrosHijo2 .fotoGrillaNosotros {
   width: 100%;
-  border: #ce984e 3px solid;
+  border: #ce984e solid 3px;
   border-radius: 5px;
   margin-bottom: 20px;
 }
@@ -537,7 +538,7 @@ main section.seccionNosotros .seccionNosotrosHijo3 .videoNosotros {
 }
 
 main section.seccionNosotros hr {
-  border: #ce984e 1px solid;
+  border: #ce984e solid 1px;
   margin-bottom: 40px;
 }
 
@@ -702,7 +703,7 @@ main section.seccionSucursales .contenedorMapas a:hover {
 main section.seccionSucursales .contenedorMapas .mapaSucursales {
   width: 900px;
   height: 450px;
-  border: 3px solid #ce984e;
+  border: #ce984e solid 3px;
   border-radius: 5px;
   opacity: 0.8;
   -webkit-filter: grayscale(1);
@@ -750,7 +751,7 @@ main section.seccionFormulario form {
 
 main section.seccionFormulario form .contenedorFormulario {
   padding: 30px;
-  border: #ce984e 3px solid;
+  border: #ce984e solid 3px;
   margin-bottom: 80px;
   background-color: black;
   display: -webkit-box;

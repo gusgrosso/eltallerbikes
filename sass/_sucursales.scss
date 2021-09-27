@@ -23,7 +23,7 @@ main {
                 flex-direction: column;
                 align-items: center;
                 .datosSucursales {
-                    color: #ce984e;
+                    color: $colorPrincipal;
                     list-style: none;
                     padding: 10px 0px;
                     display: flex;
@@ -38,12 +38,12 @@ main {
                     color: gray;
                 }
                 a:hover {
-                    color:#ce984e;
+                    color:$colorPrincipal;
                 }
                 .mapaSucursales {
                     width: 900px;
                     height: 450px;
-                    border: 3px solid #ce984e;
+                    border: $bordeGrueso;
                     border-radius: 5px;
                     opacity: 0.8;
                     @if $mapaBlancoNegro == si {
