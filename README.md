@@ -34,7 +34,7 @@ Se trabajó de forma que la web sea **Responsive**, por lo tanto se puede ver de
 
 
 ### Se puede visualizar mediante [GitHub Pages](https://gusgrosso.github.io/eltallerbikes/)
-### O también mediante [https://ar.000webhost.com/](https://eltallerbikes.000webhostapp.com/)
+
 
 <br/><br/>
 
