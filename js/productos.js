@@ -45,6 +45,11 @@ class Cascos {
 function precioDto(precio, dto) {
     return precio = precio - (precio * dto)/100;
 }
+function generarDescuento(precio) {
+    alert("precio = " + precio);
+    nuevoPrecio = precioDto(precio, prompt("ingrese el descuento: "));
+    return alert("El precio con descuento es: " + nuevoPrecio);    
+}
 
 
 productos = [];
@@ -76,40 +81,22 @@ while(eleccion != 5) {
             while(biciEleccion != 7) {
                 switch(biciEleccion) {
                     case "1":
-                        precio = 95000;
-                        alert("precio = " + precio);
-                        nuevoPrecio = precioDto(precio, prompt("ingrese el descuento: "));
-                        alert("El precio con descuento es: " + nuevoPrecio);                
+                        generarDescuento(95000);                
                         break;
                     case "2":
-                        precio = 95000;
-                        alert("precio = " + precio);
-                        nuevoPrecio = precioDto(precio, prompt("ingrese el descuento: "));
-                        alert("El precio con descuento es: " + nuevoPrecio);
+                        generarDescuento(95000);
                         break;
                     case "3":
-                        precio = 95000;
-                        alert("precio = " + precio);
-                        nuevoPrecio = precioDto(precio, prompt("ingrese el descuento: "));
-                        alert("El precio con descuento es: " + nuevoPrecio);
+                        generarDescuento(95000);
                         break;
                     case "4":
-                        precio = 95000;
-                        alert("precio = " + precio);
-                        nuevoPrecio = precioDto(precio, prompt("ingrese el descuento: "));
-                        alert("El precio con descuento es: " + nuevoPrecio);
+                        generarDescuento(95000);
                         break;
                     case "5":
-                        precio = 145000;
-                        alert("precio = " + precio);
-                        nuevoPrecio = precioDto(precio, prompt("ingrese el descuento: "));
-                        alert("El precio con descuento es: " + nuevoPrecio);
+                        generarDescuento(145000);
                         break;
                     case "6":
-                        precio = 195000;
-                        alert("precio = " + precio);
-                        nuevoPrecio = precioDto(precio, prompt("ingrese el descuento: "));
-                        alert("El precio con descuento es: " + nuevoPrecio);
+                        generarDescuento(195000);
                         break;
                     default:
                         alert("Ingresó incorrectamente, reingrese");    
@@ -123,22 +110,13 @@ while(eleccion != 5) {
             while(camaraEleccion != 4) {
                 switch(camaraEleccion) {
                     case "1":
-                        precio = 1800;
-                        alert("precio = " + precio);
-                        nuevoPrecio = precioDto(precio, prompt("ingrese el descuento: "));
-                        alert("El precio con descuento es: " + nuevoPrecio);
+                        generarDescuento(1800);
                         break;
                     case "2":
-                        precio = 1500;
-                        alert("precio = " + precio);
-                        nuevoPrecio = precioDto(precio, prompt("ingrese el descuento: "));
-                        alert("El precio con descuento es: " + nuevoPrecio);
+                        generarDescuento(1500);
                         break;
                     case "3":
-                        precio = 2000;
-                        alert("precio = " + precio);
-                        nuevoPrecio = precioDto(precio, prompt("ingrese el descuento: "));
-                        alert("El precio con descuento es: " + nuevoPrecio);
+                        generarDescuento(2000);
                         break;
                     default:
                         alert("Ingresó incorrectamente, reingrese");    
@@ -152,22 +130,13 @@ while(eleccion != 5) {
             while(cubiertaEleccion != 4) {
                 switch(cubiertaEleccion) {
                     case "1":
-                        precio = 2100;
-                        alert("precio = " + precio);
-                        nuevoPrecio = precioDto(precio, prompt("ingrese el descuento: "));
-                        alert("El precio con descuento es: " + nuevoPrecio);
+                        generarDescuento(2100);
                         break;
                     case "2":
-                        precio = 2500;
-                        alert("precio = " + precio);
-                        nuevoPrecio = precioDto(precio, prompt("ingrese el descuento: "));
-                        alert("El precio con descuento es: " + nuevoPrecio);
+                        generarDescuento(2500);
                         break;
                     case "3":
-                        precio = 2300;
-                        alert("precio = " + precio);
-                        nuevoPrecio = precioDto(precio, prompt("ingrese el descuento: "));
-                        alert("El precio con descuento es: " + nuevoPrecio);
+                        generarDescuento(2300);
                         break;
                     default:
                         alert("Ingresó incorrectamente, reingrese");    
@@ -181,22 +150,13 @@ while(eleccion != 5) {
             while(cascoEleccion != 4) {
                 switch(cascoEleccion) {
                     case "1":
-                        precio = 4800;
-                        alert("precio = " + precio);
-                        nuevoPrecio = precioDto(precio, prompt("ingrese el descuento: "));
-                        alert("El precio con descuento es: " + nuevoPrecio);
+                        generarDescuento(4800);
                         break;
                     case "2":
-                        precio = 6300;
-                        alert("precio = " + precio);
-                        nuevoPrecio = precioDto(precio, prompt("ingrese el descuento: "));
-                        alert("El precio con descuento es: " + nuevoPrecio);
+                        generarDescuento(6300);
                         break;
                     case "3":
-                        precio = 5100;
-                        alert("precio = " + precio);
-                        nuevoPrecio = precioDto(precio, prompt("ingrese el descuento: "));
-                        alert("El precio con descuento es: " + nuevoPrecio);
+                        generarDescuento(5100);
                         break;
                     default:
                         alert("Ingresó incorrectamente, reingrese");    
