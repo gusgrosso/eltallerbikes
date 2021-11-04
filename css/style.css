@@ -634,6 +634,37 @@ section.cuerpoServicios .boxServicios .servicioFondoOpacidad .parrafoServiciosJu
   border: #ce984e !important;
 }
 
+.boton__carrito {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 5px 10px;
+  background-color: black;
+  border-radius: 5px;
+  border: #ce984e solid 1px;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.boton__carrito:hover {
+  background-color: #ce984e;
+  border-radius: 5px;
+  border: #ce984e solid 1px;
+  color: white;
+  padding: 5px 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.separo_container {
+  margin-bottom: 20px;
+}
+
+.container {
+  margin-bottom: 20px;
+}
+
 /*Sucursales*/
 main section {
   margin-bottom: 60px;
