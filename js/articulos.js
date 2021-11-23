@@ -94,19 +94,28 @@ function valorTotalCarrito(idProducto){
     let valor = document.getElementsByClassName("valorTotCarrito")[0];
     let valTot = parseFloat(valor.innerHTML) + valorTotal;
     valor.innerHTML = valTot;
+    localStorage.setItem("importeTotal", JSON.stringify(valTot));
 }
 
 
 
-
+// orden al boton filtrar, que ejecute la función filtro
 $("#btnFiltro").click(filtrarProductos);
 
 
+// Función de filtrado de productos. 
 function filtrarProductos () {
     let campoSelect = document.getElementById("categoriasFiltro");
-    productosFiltrados = productos.filter(elemento => elemento.categoria == campoSelect.value);
-    limpiarHtml();
-    mostarProductos(productosFiltrados);
+    if (campoSelect.value == "Todos") {
+        limpiarHtml(); 
+        mostarProductos(productos);
+    }
+    else {
+        productosFiltrados = productos.filter(elemento => elemento.categoria == campoSelect.value);
+        limpiarHtml();
+        mostarProductos(productosFiltrados);
+    }
+    
 }  
 
 mostarProductos(productos);

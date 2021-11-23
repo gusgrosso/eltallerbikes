@@ -1,4 +1,6 @@
 
+let totalPesosCarrito = JSON.parse(localStorage.getItem("importeTotal"));
+
 
 function verCarrito() {
     let listadoCompras = JSON.parse(localStorage.getItem("carrito"));
@@ -18,8 +20,11 @@ function verCarrito() {
                                     </div>
                                     `);
         
-        
+        totalPesosCarrito = producto.precio + totalPesosCarrito;   
     }
 }
+
+$("#totCarrito").append(`<p>Importe total: ${totalPesosCarrito}</p>`)
+
 
 verCarrito();
