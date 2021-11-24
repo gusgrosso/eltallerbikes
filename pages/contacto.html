@@ -56,7 +56,7 @@
                 <form action="" id="formulario" method="POST">
                     <fieldset class="contenedorFormulario">
                         <div class="filaNombreTelefonoMail">
-                            <label class="textoFilaForm" id="validarNombre" for="nombre">Ingresa tu nombre y apellido:</label>
+                            <label class="textoFilaForm" for="nombre">Ingresa tu nombre y apellido:</label>
                             <input id="nombre" type="text" placeholder="Nombre y Apellido" size="40">
                         </div>
                         <div class="filaNombreTelefonoMail">
@@ -64,7 +64,7 @@
                             <input id="telefono" type="tel" placeholder="Teléfono" size="40">
                         </div>
                         <div class="filaNombreTelefonoMail">
-                            <label class="textoFilaForm celdaValidar" id="validarMail" for="mail">Ingresa tu e-mail:</label>
+                            <label class="textoFilaForm celdaValidar" for="mail">Ingresa tu e-mail:</label>
                             <input id="mail" type="email" placeholder="E-mail" size="40">
                         </div>
                         <div class="filaRedSocial">    
@@ -94,8 +94,9 @@
                         </div>
                         <div class="botonesForm">
                             <input type="reset" value="Limpiar el formulario" class="botonLimpiaEnvia">
-                            <input type="submit" value="Enviar!" class="botonLimpiaEnvia">
+                            <input type="submit" value="Enviar!" class="botonLimpiaEnvia" onclick="return enviarFormulario ()">
                         </div>
+                        <div id="error" class="mensajeErrorForm"></div>
                     </fieldset>
                 </form>
             </section>
@@ -140,7 +141,7 @@
         
         </footer> 
 
-        <!-- Script para bootstap -->
+    <!-- Script para bootstap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
     <!-- Script para jquery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>

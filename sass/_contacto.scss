@@ -80,8 +80,15 @@ main {
 }
 
 
-.errorValidacion {
-    background-color: red;
+.mensajeErrorForm {
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+}
+.envioCorrecto {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
 }
 
 

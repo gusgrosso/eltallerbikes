@@ -897,8 +897,16 @@ main section.seccionFormulario form .contenedorFormulario .botonesForm .botonLim
   background-color: #ce984e;
 }
 
-.errorValidacion {
-  background-color: red;
+.mensajeErrorForm {
+  color: red;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.envioCorrecto {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
 }
 
 /* footer */
