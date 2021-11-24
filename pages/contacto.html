@@ -53,10 +53,10 @@
         <main>             
             <section class="seccionFormulario">           
                 <h1>Contacto</h1>           
-                <form action="" method="POST">
+                <form action="" id="formulario" method="POST">
                     <fieldset class="contenedorFormulario">
                         <div class="filaNombreTelefonoMail">
-                            <label class="textoFilaForm" for="nombre">Ingresa tu nombre y apellido:</label>
+                            <label class="textoFilaForm" id="validarNombre" for="nombre">Ingresa tu nombre y apellido:</label>
                             <input id="nombre" type="text" placeholder="Nombre y Apellido" size="40">
                         </div>
                         <div class="filaNombreTelefonoMail">
@@ -64,7 +64,7 @@
                             <input id="telefono" type="tel" placeholder="Teléfono" size="40">
                         </div>
                         <div class="filaNombreTelefonoMail">
-                            <label class="textoFilaForm" for="mail">Ingresa tu e-mail:</label>
+                            <label class="textoFilaForm celdaValidar" id="validarMail" for="mail">Ingresa tu e-mail:</label>
                             <input id="mail" type="email" placeholder="E-mail" size="40">
                         </div>
                         <div class="filaRedSocial">    
@@ -140,8 +140,12 @@
         
         </footer> 
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-
+        <!-- Script para bootstap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <!-- Script para jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- Script para javascript -->
+    <script src="../js/contacto.js"></script>
     </body>
 
 </html>

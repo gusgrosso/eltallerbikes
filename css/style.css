@@ -897,6 +897,10 @@ main section.seccionFormulario form .contenedorFormulario .botonesForm .botonLim
   background-color: #ce984e;
 }
 
+.errorValidacion {
+  background-color: red;
+}
+
 /* footer */
 footer {
   width: 100%;
@@ -1405,5 +1409,12 @@ section .listaErrorBox ul li a:hover {
   main section .contenedorMapas .mapaSucursales {
     max-width: 95%;
   }
+}
+
+.centradoImporteCarrito {
+  width: 320px;
+  margin: auto;
+  text-align: right;
+  padding-right: 30px;
 }
 /*# sourceMappingURL=style.css.map */

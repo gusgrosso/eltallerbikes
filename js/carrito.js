@@ -1,10 +1,29 @@
 
 let totalPesosCarrito = JSON.parse(localStorage.getItem("importeTotal"));
+let listadoCompras = JSON.parse(localStorage.getItem("carrito"));
+
+const miCarritoSinDuplicados = listadoCompras.reduce((acumulador, valorActual) => {
+    const elementoYaExiste = acumulador.find(elemento => elemento.id === valorActual.id);
+    if (elementoYaExiste) {
+      return acumulador.map((elemento) => {
+        if (elemento.id === valorActual.id) {
+          return {
+            ...elemento,
+            cantidad: elemento.cantidad + valorActual.cantidad
+          }
+        }
+  
+        return elemento;
+      });
+    }
+  
+    return [...acumulador, valorActual];
+  }, []);
 
 
 function verCarrito() {
-    let listadoCompras = JSON.parse(localStorage.getItem("carrito"));
-    for (const producto of listadoCompras) {
+    
+    for (const producto of miCarritoSinDuplicados) {
         $("#filaCarrito").append(`
                                     <div class="col">
                                         <div class="card">
@@ -15,6 +34,7 @@ function verCarrito() {
                                                 <p class="card-text">Marca: ${producto.marca}</p>
                                                 <p class="card-text">Modelo: ${producto.modelo}</p>
                                                 <p class="card-text"><strong>$ ${producto.precio}</strong></p>
+                                                <p class="card-text"><strong>Cantidad: ${producto.cantidad}</strong></p>
                                             </div>
                                         </div>
                                     </div>
@@ -24,7 +44,13 @@ function verCarrito() {
     }
 }
 
-$("#totCarrito").append(`<p>Importe total: ${totalPesosCarrito}</p>`)
+let iva = totalPesosCarrito * 21/100;
+let totalIvaIncluido = totalPesosCarrito + iva;
+
+$("#totCarrito").append(`<p class="centradoImporteCarrito">Importe total sin IVA: $ ${totalPesosCarrito}</p>
+                         <p class="centradoImporteCarrito">IVA: $ ${iva} </p>
+                         <p class="centradoImporteCarrito">Total con Iva Incliudo: <strong>$ ${totalIvaIncluido} </strong></p>                           
+                        `)
 
 
 verCarrito();

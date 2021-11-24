@@ -10,6 +10,7 @@ class Articulo {
         this.velocidades = velocidades;
         this.color = color;
         this.precio = parseFloat(precio);
+        this.cantidad = 1;
     }
 }
 
@@ -78,9 +79,10 @@ function cantidadProductosComprados(idProducto) {
 // función que me permite obtener los productos seleccionados y sumarlos al carrito
 const carrito = [];
 function agregarProductosCarrito(idProducto) {
-    let productoComprado = productos.find(art => art.id == idProducto);
-    carrito.push(productoComprado);
-    localStorage.setItem("carrito", JSON.stringify(carrito));
+        let productoComprado = productos.find(art => art.id == idProducto);
+        carrito.push(productoComprado);
+        localStorage.setItem("carrito", JSON.stringify(carrito));
+               
 }
 
 // función que me sumará y acumulará el valor total que va teniendo el carrito
