@@ -1,7 +1,9 @@
 
+// Recupero del Json el importe total y el carrito
 let totalPesosCarrito = JSON.parse(localStorage.getItem("importeTotal"));
 let listadoCompras = JSON.parse(localStorage.getItem("carrito"));
 
+// Como el carrito puede tener duplicados, voy a trabajarlo para que me quede un nuevo carro sin duplicados y con las cantidades sumadas
 const miCarritoSinDuplicados = listadoCompras.reduce((acumulador, valorActual) => {
     const elementoYaExiste = acumulador.find(elemento => elemento.id === valorActual.id);
     if (elementoYaExiste) {
@@ -20,7 +22,7 @@ const miCarritoSinDuplicados = listadoCompras.reduce((acumulador, valorActual) =
     return [...acumulador, valorActual];
   }, []);
 
-
+// dibujo el nuevo carrito
 function verCarrito() {
     
     for (const producto of miCarritoSinDuplicados) {
@@ -44,13 +46,19 @@ function verCarrito() {
     }
 }
 
+// fin del programa carrito con los importes, iva y total
 let iva = totalPesosCarrito * 21/100;
 let totalIvaIncluido = totalPesosCarrito + iva;
 
 $("#totCarrito").append(`<p class="centradoImporteCarrito">Importe total sin IVA: $ ${totalPesosCarrito}</p>
                          <p class="centradoImporteCarrito">IVA: $ ${iva} </p>
-                         <p class="centradoImporteCarrito">Total con Iva Incliudo: <strong>$ ${totalIvaIncluido} </strong></p>                           
+                         <p id="totalFinal" class="centradoImporteCarrito">Total con Iva Incluido: <strong>$ ${totalIvaIncluido} </strong></p>                           
                         `)
 
 
+
 verCarrito();
+
+$("#totalFinal").css("color", "white")
+                .slideUp(2000)
+                .slideDown(2000)
